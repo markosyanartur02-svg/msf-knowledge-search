@@ -1,0 +1,8235 @@
+{
+ "summary": {
+  "keyword": {
+   "recall@5": 0.85,
+   "mrr@10": 0.7693055555555556,
+   "fp_no_threshold": 1.0,
+   "threshold": 12.801146984100342,
+   "answered": 0.9166666666666666,
+   "fp": 0.21052631578947367,
+   "separation": 0.9324561403508772,
+   "ms": 8.408810670010132,
+   "recall@5_en": 0.9772727272727273,
+   "n_en": 44,
+   "recall@5_fr": 0.5,
+   "n_fr": 6,
+   "recall@5_ar": 0.4,
+   "n_ar": 5,
+   "recall@5_es": 0.6,
+   "n_es": 5,
+   "n_answerable": 60,
+   "n_no_answer": 19
+  },
+  "semantic": {
+   "recall@5": 0.9,
+   "mrr@10": 0.8570105820105821,
+   "fp_no_threshold": 1.0,
+   "threshold": 0.8755717575550079,
+   "answered": 0.8,
+   "fp": 0.0,
+   "separation": 0.9114035087719298,
+   "ms": 8.250385619363971,
+   "recall@5_en": 0.9772727272727273,
+   "n_en": 44,
+   "recall@5_fr": 0.6666666666666666,
+   "n_fr": 6,
+   "recall@5_ar": 0.4,
+   "n_ar": 5,
+   "recall@5_es": 1.0,
+   "n_es": 5,
+   "n_answerable": 60,
+   "n_no_answer": 19
+  },
+  "hybrid": {
+   "recall@5": 0.8666666666666667,
+   "mrr@10": 0.8286970899470899,
+   "fp_no_threshold": 1.0,
+   "threshold": 0.04477205189770213,
+   "answered": 0.9166666666666666,
+   "fp": 0.15789473684210525,
+   "separation": 0.9482456140350877,
+   "ms": 8.349758376886102,
+   "recall@5_en": 1.0,
+   "n_en": 44,
+   "recall@5_fr": 0.3333333333333333,
+   "n_fr": 6,
+   "recall@5_ar": 0.4,
+   "n_ar": 5,
+   "recall@5_es": 0.8,
+   "n_es": 5,
+   "n_answerable": 60,
+   "n_no_answer": 19
+  },
+  "rerank": {
+   "recall@5": 0.9833333333333333,
+   "mrr@10": 0.9361111111111111,
+   "fp_no_threshold": 1.0,
+   "threshold": -2.5309975481033327,
+   "answered": 0.9833333333333333,
+   "fp": 0.10526315789473684,
+   "separation": 0.9780701754385965,
+   "ms": 781.2452662907116,
+   "recall@5_en": 1.0,
+   "n_en": 44,
+   "recall@5_fr": 0.8333333333333334,
+   "n_fr": 6,
+   "recall@5_ar": 1.0,
+   "n_ar": 5,
+   "recall@5_es": 1.0,
+   "n_es": 5,
+   "n_answerable": 60,
+   "n_no_answer": 19
+  },
+  "rerank + priors": {
+   "recall@5": 0.9833333333333333,
+   "mrr@10": 0.9555555555555555,
+   "fp_no_threshold": 1.0,
+   "threshold": -2.5309975481033327,
+   "answered": 0.9833333333333333,
+   "fp": 0.10526315789473684,
+   "separation": 0.9780701754385965,
+   "ms": 797.3498671140251,
+   "recall@5_en": 1.0,
+   "n_en": 44,
+   "recall@5_fr": 0.8333333333333334,
+   "n_fr": 6,
+   "recall@5_ar": 1.0,
+   "n_ar": 5,
+   "recall@5_es": 1.0,
+   "n_es": 5,
+   "n_answerable": 60,
+   "n_no_answer": 19
+  }
+ },
+ "details": {
+  "keyword": [
+   {
+    "id": "en01",
+    "lang": "en",
+    "category": "clinical",
+    "query": "What are the symptoms of malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "keyword",
+    "rank": 2,
+    "ms": 8.625582966487855,
+    "top5": [
+     "Dd6a1769f2b",
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "Da8de6138bd",
+     "D1c2515fd29"
+    ],
+    "confidence": 10.468873977661133
+   },
+   {
+    "id": "en02",
+    "lang": "en",
+    "category": "clinical",
+    "query": "amoxicillin dosage for a child",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.638958039227873,
+    "top5": [
+     "P24",
+     "Dec1d5ccb22",
+     "D0db6bc77dd",
+     "Dd3254da5f8",
+     "De61d0eaa84"
+    ],
+    "confidence": 20.910377502441406
+   },
+   {
+    "id": "en03",
+    "lang": "en",
+    "category": "clinical",
+    "query": "woman bleeding heavily after giving birth, what should I do?",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.740374993067235,
+    "top5": [
+     "D0ea302e15b",
+     "Db4e4334847",
+     "Dfee2e6ea98",
+     "D3f666b74fc",
+     "D32ea4a9d92"
+    ],
+    "confidence": 14.577366828918457
+   },
+   {
+    "id": "en04",
+    "lang": "en",
+    "category": "clinical",
+    "query": "signs and diagnosis of pulmonary tuberculosis",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.295082952827215,
+    "top5": [
+     "P21",
+     "D98ca469833",
+     "D16794eb94d",
+     "D795c870cf1",
+     "D4afd3f8cff"
+    ],
+    "confidence": 17.139211654663086
+   },
+   {
+    "id": "en05",
+    "lang": "en",
+    "category": "clinical",
+    "query": "treatment regimen for drug-susceptible TB in children",
+    "relevant": [
+     "P49"
+    ],
+    "mode": "keyword",
+    "rank": 3,
+    "ms": 8.798416994977742,
+    "top5": [
+     "P34",
+     "Df3ba72b4f8",
+     "P49",
+     "De28a3dac9b",
+     "D1498e1b466"
+    ],
+    "confidence": 25.042749404907227
+   },
+   {
+    "id": "en06",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is sleeping sickness treated?",
+    "relevant": [
+     "De3f857b161",
+     "Dfee2e6ea98",
+     "D3eb698da05"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.228457998484373,
+    "top5": [
+     "Dfee2e6ea98",
+     "Db88e5c92e9",
+     "Da3c2a32b51",
+     "D3eb698da05",
+     "Dde242c302e"
+    ],
+    "confidence": 20.6521053314209
+   },
+   {
+    "id": "en07",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is cholera transmitted and how is it treated?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.31366702914238,
+    "top5": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "D9c3366a7c9",
+     "D279e1306ba"
+    ],
+    "confidence": 16.275604248046875
+   },
+   {
+    "id": "en08",
+    "lang": "en",
+    "category": "clinical",
+    "query": "visceral leishmaniasis treatment with AmBisome and miltefosine",
+    "relevant": [
+     "D8048b8fc82",
+     "D035530810c"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.445290965028107,
+    "top5": [
+     "D8048b8fc82",
+     "D20de515bc6",
+     "D12eb6a44ae",
+     "D035530810c",
+     "D9ae55ed798"
+    ],
+    "confidence": 33.14744567871094
+   },
+   {
+    "id": "en09",
+    "lang": "en",
+    "category": "clinical",
+    "query": "Ebola infection in pregnant women",
+    "relevant": [
+     "Dd3e3626d4a",
+     "Db4e4334847"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.340041036717594,
+    "top5": [
+     "Db4e4334847",
+     "D9c3366a7c9",
+     "D20de515bc6",
+     "D86163d450a",
+     "D62457e1efb"
+    ],
+    "confidence": 19.585498809814453
+   },
+   {
+    "id": "en10",
+    "lang": "en",
+    "category": "clinical",
+    "query": "is a single dose of oral cholera vaccine effective?",
+    "relevant": [
+     "D9962a0b190",
+     "D8954bd10a8",
+     "D66fe4cd145",
+     "D081f681b26",
+     "P33",
+     "D6e4fcedcad"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.274708001408726,
+    "top5": [
+     "D6e4fcedcad",
+     "D8954bd10a8",
+     "P33",
+     "D66fe4cd145",
+     "D9962a0b190"
+    ],
+    "confidence": 32.65303039550781
+   },
+   {
+    "id": "en11",
+    "lang": "en",
+    "category": "clinical",
+    "query": "measles vaccination of infants at 6 months",
+    "relevant": [
+     "D8bc477871b",
+     "D3eb698da05"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.377457968890667,
+    "top5": [
+     "D8bc477871b",
+     "P33",
+     "Db006be0701",
+     "D199715052e",
+     "D6a4632d088"
+    ],
+    "confidence": 20.25071144104004
+   },
+   {
+    "id": "en12",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pneumococcal vaccine use in humanitarian crises",
+    "relevant": [
+     "D67e9876b52",
+     "P33"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.499125018715858,
+    "top5": [
+     "D67e9876b52",
+     "Dfee2e6ea98",
+     "D62457e1efb",
+     "D4dc223f819",
+     "P33"
+    ],
+    "confidence": 27.324344635009766
+   },
+   {
+    "id": "en13",
+    "lang": "en",
+    "category": "clinical",
+    "query": "children bitten by snakes in Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.296874992083758,
+    "top5": [
+     "Da8a79bb208",
+     "P12",
+     "D7ce58ac770",
+     "D32ea4a9d92",
+     "D3a2e8cc2bf"
+    ],
+    "confidence": 32.15897750854492
+   },
+   {
+    "id": "en14",
+    "lang": "en",
+    "category": "clinical",
+    "query": "what causes noma and which children are at risk?",
+    "relevant": [
+     "D1b06b6e33c",
+     "D4f51b3b8aa"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.45833303174004,
+    "top5": [
+     "D1b06b6e33c",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "D4f51b3b8aa",
+     "Dad97e8d44d"
+    ],
+    "confidence": 20.43477439880371
+   },
+   {
+    "id": "en15",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pellagra and niacin deficiency in a post-war population",
+    "relevant": [
+     "Da75bdbcd90"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.645416994113475,
+    "top5": [
+     "Da75bdbcd90",
+     "D99b084ca58",
+     "Db88e5c92e9",
+     "Dfee2e6ea98",
+     "D279f7b3d6d"
+    ],
+    "confidence": 32.88087463378906
+   },
+   {
+    "id": "en16",
+    "lang": "en",
+    "category": "clinical",
+    "query": "bone and joint disease in rural Tibet linked to selenium",
+    "relevant": [
+     "D9dce5d3ce9"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.565250027459115,
+    "top5": [
+     "D9dce5d3ce9",
+     "Db88e5c92e9",
+     "Da3c2a32b51",
+     "D12eb6a44ae",
+     "P49"
+    ],
+    "confidence": 33.36624526977539
+   },
+   {
+    "id": "en17",
+    "lang": "en",
+    "category": "clinical",
+    "query": "cervical cancer screening with HPV self-sampling",
+    "relevant": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "Dac76ae4784"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.243874995969236,
+    "top5": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "Dac76ae4784",
+     "P33",
+     "D32ea4a9d92"
+    ],
+    "confidence": 38.55873489379883
+   },
+   {
+    "id": "en18",
+    "lang": "en",
+    "category": "clinical",
+    "query": "results of hepatitis C treatment in MSF programmes",
+    "relevant": [
+     "D70c5546837",
+     "D115e2a4293",
+     "D111832613c"
+    ],
+    "mode": "keyword",
+    "rank": 5,
+    "ms": 8.750542008783668,
+    "top5": [
+     "D7f227c43c5",
+     "D32ea4a9d92",
+     "D3eb698da05",
+     "Df2e3f740e3",
+     "D115e2a4293"
+    ],
+    "confidence": 13.331624031066895
+   },
+   {
+    "id": "en19",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MRSA carriage among patients in a Ugandan hospital",
+    "relevant": [
+     "D4543bc4b16"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.530666003935039,
+    "top5": [
+     "D4543bc4b16",
+     "D3ceda3d736",
+     "D4dc223f819",
+     "D67e9876b52",
+     "Db88e5c92e9"
+    ],
+    "confidence": 36.45330810546875
+   },
+   {
+    "id": "en20",
+    "lang": "en",
+    "category": "clinical",
+    "query": "palliative care and symptom relief in humanitarian emergencies",
+    "relevant": [
+     "D09c3654e6e",
+     "Dfc2b1675a1"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.436499978415668,
+    "top5": [
+     "D09c3654e6e",
+     "Dfc2b1675a1",
+     "D3b2e475c37",
+     "D71c39bf00c",
+     "D32ea4a9d92"
+    ],
+    "confidence": 30.870277404785156
+   },
+   {
+    "id": "en21",
+    "lang": "en",
+    "category": "research",
+    "query": "mental health of international humanitarian aid workers",
+    "relevant": [
+     "P15"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.683416992425919,
+    "top5": [
+     "P15",
+     "P08",
+     "P43",
+     "Dba1a12df50",
+     "D8b233f27d2"
+    ],
+    "confidence": 19.190568923950195
+   },
+   {
+    "id": "en22",
+    "lang": "en",
+    "category": "research",
+    "query": "portable bacteriology lab to detect antibiotic resistance in low-resource settings",
+    "relevant": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "D53e58415e7"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.456332958303392,
+    "top5": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "D53e58415e7",
+     "D73d7444763",
+     "P35"
+    ],
+    "confidence": 35.01374053955078
+   },
+   {
+    "id": "en23",
+    "lang": "en",
+    "category": "research",
+    "query": "clinical trials for Lassa fever treatment",
+    "relevant": [
+     "Dda0b8c2901",
+     "Df45b248d71"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.401458035223186,
+    "top5": [
+     "Dda0b8c2901",
+     "Df45b248d71",
+     "D32ea4a9d92",
+     "Da7bd65da54",
+     "D096f85888f"
+    ],
+    "confidence": 27.914594650268555
+   },
+   {
+    "id": "en24",
+    "lang": "en",
+    "category": "research",
+    "query": "are rapid diagnostic tests cost-effective during malaria epidemics?",
+    "relevant": [
+     "D1c2515fd29"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.489792002364993,
+    "top5": [
+     "D1c2515fd29",
+     "Da8de6138bd",
+     "D93b7301a72",
+     "P14",
+     "De7a091d6d2"
+    ],
+    "confidence": 37.38234329223633
+   },
+   {
+    "id": "en25",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MDR-TB treatment with bedaquiline and delamanid",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.406416978687048,
+    "top5": [
+     "P20",
+     "D674b851bcf",
+     "D705d4b38bf",
+     "P34",
+     "D98949d5e0c"
+    ],
+    "confidence": 30.541561126708984
+   },
+   {
+    "id": "en26",
+    "lang": "en",
+    "category": "operations",
+    "query": "how many people did the Geo Barents rescue in the Central Mediterranean in March 2022?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.849167032167315,
+    "top5": [
+     "D6de324faad",
+     "P45",
+     "D0c85bc1b4a",
+     "D3c8d0341c6",
+     "D6a210ea934"
+    ],
+    "confidence": 47.30258560180664
+   },
+   {
+    "id": "en27",
+    "lang": "en",
+    "category": "operations",
+    "query": "drone attack on Al-Jabalain hospital in White Nile state",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.600083005148917,
+    "top5": [
+     "Db2de191d11",
+     "D8b3df52e9e",
+     "De03cafecf1",
+     "D32ea4a9d92",
+     "D17e499ac0a"
+    ],
+    "confidence": 51.60839080810547
+   },
+   {
+    "id": "en28",
+    "lang": "en",
+    "category": "operations",
+    "query": "Bundibugyo Ebola outbreak in Ituri",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.192666980903596,
+    "top5": [
+     "D8bafbbfb7a",
+     "D5d1bb4aad4",
+     "Dd2d4a2481b",
+     "D5375e4eb66",
+     "D32ea4a9d92"
+    ],
+    "confidence": 27.56403350830078
+   },
+   {
+    "id": "en29",
+    "lang": "en",
+    "category": "operations",
+    "query": "supply shortages at Nasser hospital in Gaza",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.494249952491373,
+    "top5": [
+     "D28f2e6484c",
+     "Dba1a12df50",
+     "Dc9b5ae9bd8",
+     "P07",
+     "Dd4ee6d16b7"
+    ],
+    "confidence": 33.433624267578125
+   },
+   {
+    "id": "en30",
+    "lang": "en",
+    "category": "operations",
+    "query": "cholera outbreak in Upper Nile state, South Sudan",
+    "relevant": [
+     "D0fdc1d0ef5",
+     "D160b2d96cd",
+     "D6b8bfd81c8"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.50912497844547,
+    "top5": [
+     "D0fdc1d0ef5",
+     "D3eb698da05",
+     "D6b8bfd81c8",
+     "D66fe4cd145",
+     "Da3c2a32b51"
+    ],
+    "confidence": 43.29597091674805
+   },
+   {
+    "id": "en31",
+    "lang": "en",
+    "category": "operations",
+    "query": "flooding in Maiduguri and risk of disease outbreaks",
+    "relevant": [
+     "De2f723ce04",
+     "D46868ca351"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.459042001049966,
+    "top5": [
+     "De2f723ce04",
+     "P09",
+     "D88155b92de",
+     "D32ea4a9d92",
+     "D3eb698da05"
+    ],
+    "confidence": 31.78543472290039
+   },
+   {
+    "id": "en32",
+    "lang": "en",
+    "category": "operations",
+    "query": "rise in severe malnutrition admissions in southern Afghanistan",
+    "relevant": [
+     "D8a2f164116",
+     "Dab64a41cbe"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.412791998125613,
+    "top5": [
+     "D8a2f164116",
+     "De2f723ce04",
+     "Daa73c27a78",
+     "Dd3254da5f8",
+     "D5da0aed2fd"
+    ],
+    "confidence": 34.93732833862305
+   },
+   {
+    "id": "en33",
+    "lang": "en",
+    "category": "operations",
+    "query": "UN Security Council resolution 2286 on protecting health care",
+    "relevant": [
+     "D0513ca68ff",
+     "D1c586e6f70",
+     "Dda1f1cf382"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.59945802949369,
+    "top5": [
+     "D0513ca68ff",
+     "Dda1f1cf382",
+     "D597b901fc0",
+     "D2fc6ab5472",
+     "Da384a9ee90"
+    ],
+    "confidence": 33.65556335449219
+   },
+   {
+    "id": "en34",
+    "lang": "en",
+    "category": "operations",
+    "query": "why did MSF end its activities in northern Brazil?",
+    "relevant": [
+     "D1bcc414c13"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.826499979477376,
+    "top5": [
+     "D1bcc414c13",
+     "Dfee2e6ea98",
+     "D32ea4a9d92",
+     "Db88e5c92e9",
+     "D99b084ca58"
+    ],
+    "confidence": 16.702404022216797
+   },
+   {
+    "id": "en35",
+    "lang": "en",
+    "category": "legal",
+    "query": "who invented the term genocide?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "keyword",
+    "rank": 3,
+    "ms": 8.282958006020635,
+    "top5": [
+     "Da384a9ee90",
+     "Da68d33c442",
+     "P25",
+     "D74c6cb64f3",
+     "Db88e5c92e9"
+    ],
+    "confidence": 16.6501522064209
+   },
+   {
+    "id": "en36",
+    "lang": "en",
+    "category": "legal",
+    "query": "which international conventions has Madagascar ratified?",
+    "relevant": [
+     "D4c9ba9b73a"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.431333990301937,
+    "top5": [
+     "D4c9ba9b73a",
+     "Df85d288c91",
+     "P25",
+     "De8e37cb6a1",
+     "D6d7fafbadc"
+    ],
+    "confidence": 23.910388946533203
+   },
+   {
+    "id": "en37",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF and the fall of Srebrenica in 1995",
+    "relevant": [
+     "Dd12a09cdc4",
+     "De04deb00e2",
+     "D23be77d49e"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.518333022948354,
+    "top5": [
+     "Dd12a09cdc4",
+     "D23be77d49e",
+     "Db88e5c92e9"
+    ],
+    "confidence": 18.20338249206543
+   },
+   {
+    "id": "en38",
+    "lang": "en",
+    "category": "history",
+    "query": "why did MSF withdraw from North Korea?",
+    "relevant": [
+     "D99b084ca58",
+     "D806bc9089a",
+     "D0648397364"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.485957980155945,
+    "top5": [
+     "D99b084ca58",
+     "D0648397364"
+    ],
+    "confidence": 19.427186965942383
+   },
+   {
+    "id": "en39",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF public statements on war crimes in Chechnya",
+    "relevant": [
+     "P43",
+     "Db44a39eff2"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.662124979309738,
+    "top5": [
+     "P43",
+     "Db44a39eff2"
+    ],
+    "confidence": 16.83792495727539
+   },
+   {
+    "id": "en40",
+    "lang": "en",
+    "category": "history",
+    "query": "Salvadoran refugee camps in Honduras",
+    "relevant": [
+     "Da5fd2a394e"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.2230000407435,
+    "top5": [
+     "Da5fd2a394e",
+     "P32",
+     "Dbd6e2ef149",
+     "Da384a9ee90",
+     "Da68d33c442"
+    ],
+    "confidence": 29.929271697998047
+   },
+   {
+    "id": "en41",
+    "lang": "en",
+    "category": "history",
+    "query": "forced relocations during the Ethiopian famine",
+    "relevant": [
+     "P41",
+     "D98f9c10fad"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.257542038336396,
+    "top5": [
+     "P41",
+     "D98f9c10fad"
+    ],
+    "confidence": 20.86383628845215
+   },
+   {
+    "id": "en42",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF total income and expenditure in 2021",
+    "relevant": [
+     "P46"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.776540984399617,
+    "top5": [
+     "P46",
+     "P47",
+     "P48",
+     "D10d6a75496",
+     "Da3c2a32b51"
+    ],
+    "confidence": 24.736278533935547
+   },
+   {
+    "id": "en43",
+    "lang": "en",
+    "category": "finance",
+    "query": "where did MSF's money come from in 2024?",
+    "relevant": [
+     "P45"
+    ],
+    "mode": "keyword",
+    "rank": 3,
+    "ms": 8.824167016427964,
+    "top5": [
+     "D32ea4a9d92",
+     "P43",
+     "P45",
+     "Da7897cecbd",
+     "Da3c2a32b51"
+    ],
+    "confidence": 11.569299697875977
+   },
+   {
+    "id": "en44",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF international financial report 2018",
+    "relevant": [
+     "P47"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.635083038825542,
+    "top5": [
+     "P47",
+     "P46",
+     "P48",
+     "P45",
+     "D10d6a75496"
+    ],
+    "confidence": 17.51043701171875
+   },
+   {
+    "id": "fr01",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quels sont les symptômes du paludisme ?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.223999990150332,
+    "top5": [
+     "Dd19d457d52",
+     "D7dbb77c873",
+     "Dfc8173d0de",
+     "P22",
+     "D40369c9b91"
+    ],
+    "confidence": 19.061588287353516
+   },
+   {
+    "id": "fr02",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quelle dose d'amoxicilline donner à un enfant ?",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.249541046097875,
+    "top5": [
+     "Dd19d457d52",
+     "D9e021943b7",
+     "D3201fea5f5",
+     "D795c870cf1",
+     "D40369c9b91"
+    ],
+    "confidence": 17.719319900512694
+   },
+   {
+    "id": "fr03",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Prise en charge d'une hémorragie après l'accouchement",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.43983399681747,
+    "top5": [
+     "Dad7d7e880f",
+     "D7dbb77c873",
+     "D88e42ff882",
+     "D5e9f29a4e4",
+     "Dc95675e997"
+    ],
+    "confidence": 20.036967834472655
+   },
+   {
+    "id": "fr04",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Signes cliniques de la tuberculose pulmonaire",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.10170901240781,
+    "top5": [
+     "P22",
+     "Df8d55f1f0f",
+     "D9e021943b7",
+     "Ddf8cc4588f",
+     "D3201fea5f5"
+    ],
+    "confidence": 38.70743179321289
+   },
+   {
+    "id": "fr05",
+    "lang": "fr",
+    "category": "legal",
+    "query": "Qui a inventé le mot génocide ?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "keyword",
+    "rank": 3,
+    "ms": 8.166374987922609,
+    "top5": [
+     "Dd19d457d52",
+     "Da3c2a32b51",
+     "P25",
+     "Da68d33c442",
+     "Da384a9ee90"
+    ],
+    "confidence": 6.448456420898438
+   },
+   {
+    "id": "fr06",
+    "lang": "fr",
+    "category": "operations",
+    "query": "Combien de personnes le Geo Barents a-t-il secourues en mars 2022 ?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "keyword",
+    "rank": 2,
+    "ms": 8.348124974872917,
+    "top5": [
+     "D5075be3d1d",
+     "D6de324faad",
+     "D0c85bc1b4a",
+     "P45",
+     "D04304ea6c4"
+    ],
+    "confidence": 29.3843168422154
+   },
+   {
+    "id": "ar01",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "ما هي أعراض الملاريا؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.118583995383233,
+    "top5": [
+     "D6bd328fa1a",
+     "D25c399e2a3",
+     "D1c586e6f70",
+     "Da62ea9bf7f",
+     "Da5383a3d0a"
+    ],
+    "confidence": 14.72214126586914
+   },
+   {
+    "id": "ar02",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "كيف تنتقل الكوليرا وكيف تعالج؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.398791949730366,
+    "top5": [
+     "Dd625eb4d57",
+     "D160b2d96cd",
+     "Df5738d956a",
+     "D855a2aa8c6",
+     "Dc09cbc73ed"
+    ],
+    "confidence": 15.569596847534179
+   },
+   {
+    "id": "ar03",
+    "lang": "ar",
+    "category": "operations",
+    "query": "الهجوم على مستشفى الجبلين في ولاية النيل الأبيض",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.436374948360026,
+    "top5": [
+     "D73872d2990",
+     "D160b2d96cd",
+     "D3fcfb82721",
+     "D9e96d4b753",
+     "D332fd5febc"
+    ],
+    "confidence": 35.21182846069336
+   },
+   {
+    "id": "ar04",
+    "lang": "ar",
+    "category": "operations",
+    "query": "تفشي إيبولا بونديبوغيو في إيتوري",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.372667012736201,
+    "top5": [
+     "D9f045d83a6",
+     "Dac15cd638c",
+     "Dacd418953a",
+     "D5ba45ea0c7",
+     "D855a2aa8c6"
+    ],
+    "confidence": 37.38369369506836
+   },
+   {
+    "id": "ar05",
+    "lang": "ar",
+    "category": "operations",
+    "query": "نقص الإمدادات في مستشفى ناصر في غزة",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.232957974541932,
+    "top5": [
+     "D98399d39a0",
+     "D25c399e2a3",
+     "D9996afe2d0",
+     "D3889964229",
+     "Dcb1577f6b1"
+    ],
+    "confidence": 50.137977600097656
+   },
+   {
+    "id": "es01",
+    "lang": "es",
+    "category": "clinical",
+    "query": "¿Cuáles son los síntomas de la malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.244459051638842,
+    "top5": [
+     "D162ba1334d",
+     "D0c937b9312",
+     "D1c730f5fe6",
+     "D0858e37568",
+     "D44b991fcbd"
+    ],
+    "confidence": 9.431002616882324
+   },
+   {
+    "id": "es02",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Tratamiento de la tuberculosis multirresistente con bedaquilina",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "keyword",
+    "rank": 2,
+    "ms": 8.383665990550071,
+    "top5": [
+     "D866cbc1592",
+     "D030d37cd08",
+     "D4ebb3e2295",
+     "D9e83de4d52",
+     "D44b991fcbd"
+    ],
+    "confidence": 31.483604431152344
+   },
+   {
+    "id": "es03",
+    "lang": "es",
+    "category": "research",
+    "query": "Control de mosquitos con Wolbachia en Honduras",
+    "relevant": [
+     "D1c730f5fe6"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.22524999966845,
+    "top5": [
+     "D1c730f5fe6",
+     "Dfee2e6ea98",
+     "Db88e5c92e9",
+     "Da3c2a32b51",
+     "D2306bbff2b"
+    ],
+    "confidence": 34.11179733276367
+   },
+   {
+    "id": "es04",
+    "lang": "es",
+    "category": "research",
+    "query": "Prevalencia de úlceras genitales en Pweto, República Democrática del Congo",
+    "relevant": [
+     "D8aa6e6503b"
+    ],
+    "mode": "keyword",
+    "rank": 1,
+    "ms": 8.480457996483892,
+    "top5": [
+     "D8aa6e6503b",
+     "D162ba1334d",
+     "D866cbc1592",
+     "D6d95a6dd88",
+     "D4ebb3e2295"
+    ],
+    "confidence": 42.81902829851423
+   },
+   {
+    "id": "es05",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Mordeduras de serpiente en niños en Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "keyword",
+    "rank": 8,
+    "ms": 8.226709032896906,
+    "top5": [
+     "D4ebb3e2295",
+     "D795c870cf1",
+     "D5da0aed2fd",
+     "D6d95a6dd88",
+     "Da5753abc3e"
+    ],
+    "confidence": 11.249842605590821
+   },
+   {
+    "id": "na01",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to treat Lyme disease",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.239167043939233,
+    "top5": [
+     "Db88e5c92e9",
+     "Da3c2a32b51",
+     "Dfee2e6ea98",
+     "D44b991fcbd",
+     "D32ea4a9d92"
+    ],
+    "confidence": 6.0936771774292
+   },
+   {
+    "id": "na02",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "rehabilitation after knee ligament surgery",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.24499997543171,
+    "top5": [
+     "Ddc851011e7",
+     "Dfee2e6ea98",
+     "P43",
+     "D32ea4a9d92",
+     "Dba1a12df50"
+    ],
+    "confidence": 8.839539031982422
+   },
+   {
+    "id": "na03",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "dental implant procedure steps",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 10.985708038788289,
+    "top5": [
+     "Dfee2e6ea98",
+     "D7f227c43c5",
+     "D32ea4a9d92",
+     "D99b084ca58",
+     "D8ad70d7749"
+    ],
+    "confidence": 11.922168731689453
+   },
+   {
+    "id": "na04",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "insulin pump settings for type 1 diabetes",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.116374956443906,
+    "top5": [
+     "D71c39bf00c",
+     "D7b1badbde2",
+     "D3a9dd210b9",
+     "D485cf07c2f",
+     "D292411330b"
+    ],
+    "confidence": 19.10247039794922
+   },
+   {
+    "id": "na05",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "treatment of acute mountain sickness at high altitude",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.287457982078195,
+    "top5": [
+     "P43",
+     "D279f7b3d6d",
+     "De3f857b161",
+     "Dfee2e6ea98",
+     "Da3c2a32b51"
+    ],
+    "confidence": 16.748287200927734
+   },
+   {
+    "id": "na06",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "MSF projects in Antarctica",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.465958992019296,
+    "top5": [
+     "D48246cb637",
+     "D32ea4a9d92",
+     "Dd12a09cdc4",
+     "Da3c2a32b51",
+     "Dfee2e6ea98"
+    ],
+    "confidence": 3.3818265342712404
+   },
+   {
+    "id": "na07",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to manage an acute gout attack",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.196334005333483,
+    "top5": [
+     "Ddeb37405b7",
+     "D705b6e90b7",
+     "Dd12a09cdc4",
+     "D99b084ca58",
+     "D32ea4a9d92"
+    ],
+    "confidence": 9.05044792175293
+   },
+   {
+    "id": "na08",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "multiple sclerosis disease-modifying therapy",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.260625007096678,
+    "top5": [
+     "D673ba9db5c",
+     "Dab7c742420",
+     "D24b54ce36a",
+     "D6b93916a5a",
+     "D3ceda3d736"
+    ],
+    "confidence": 12.270669937133789
+   },
+   {
+    "id": "na09",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "glaucoma eye drops and intraocular pressure",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.190874999854714,
+    "top5": [
+     "D34e2d54853",
+     "P32",
+     "Da3c2a32b51",
+     "Db88e5c92e9",
+     "P43"
+    ],
+    "confidence": 15.855033081054687
+   },
+   {
+    "id": "na10",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "botox injection dose for wrinkles",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.039334032218903,
+    "top5": [
+     "D0db6bc77dd",
+     "D08b1166a91",
+     "D8bc477871b",
+     "P33",
+     "Dd5074a1835"
+    ],
+    "confidence": 11.462695083618165
+   },
+   {
+    "id": "na11",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "gluten-free diet for coeliac disease",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.11812496976927,
+    "top5": [
+     "D46512b4307",
+     "D718afe08b3",
+     "Da7bd65da54",
+     "D9338fbb910",
+     "Dbb1bc86e28"
+    ],
+    "confidence": 9.327779930114746
+   },
+   {
+    "id": "na12",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "best medication for migraine headaches",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.076708996668458,
+    "top5": [
+     "Dfee2e6ea98",
+     "D6b93916a5a",
+     "Db4e4334847",
+     "D32ea4a9d92",
+     "D3eb698da05"
+    ],
+    "confidence": 8.766079406738282
+   },
+   {
+    "id": "na13",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "LASIK laser surgery for short-sightedness",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.05099995341152,
+    "top5": [
+     "Dfee2e6ea98",
+     "P32",
+     "D99b084ca58",
+     "D84c3dce66e",
+     "D7f227c43c5"
+    ],
+    "confidence": 8.521485885620116
+   },
+   {
+    "id": "na14",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "tinnitus ringing in the ears treatment",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.144207997247577,
+    "top5": [
+     "Dc190efdb0c",
+     "Da68d33c442",
+     "P43",
+     "Dbd6e2ef149",
+     "P32"
+    ],
+    "confidence": 7.62495849609375
+   },
+   {
+    "id": "na15",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "Comment traiter la maladie de Lyme ?",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 7.971875020302832,
+    "top5": [
+     "Dd19d457d52",
+     "Dbd5581d7ea",
+     "D40369c9b91",
+     "Da906dd6c63",
+     "D5075be3d1d"
+    ],
+    "confidence": 18.019295196533204
+   },
+   {
+    "id": "na16",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "traitement du glaucome",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 7.912291039247066,
+    "top5": [
+     "P22",
+     "Dd19d457d52",
+     "Dc1c94fd2b0",
+     "D0f4ce98344",
+     "D1c2515fd29"
+    ],
+    "confidence": 6.230260810852051
+   },
+   {
+    "id": "na17",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "علاج الصداع النصفي",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 7.846666965633631,
+    "top5": [
+     "Dac15cd638c",
+     "D11201a228a",
+     "D855a2aa8c6",
+     "D160b2d96cd",
+     "De65d413d46"
+    ],
+    "confidence": 3.971445350646973
+   },
+   {
+    "id": "na18",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "إعدادات مضخة الأنسولين لمرضى السكري",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.084625005722046,
+    "top5": [
+     "Dcf2e36fd60",
+     "Dcb1577f6b1",
+     "D46868ca351",
+     "D25c399e2a3",
+     "D19b04b35f2"
+    ],
+    "confidence": 7.8513013534545895
+   },
+   {
+    "id": "na19",
+    "lang": "es",
+    "category": "no-answer",
+    "query": "tratamiento de la esclerosis múltiple",
+    "relevant": [],
+    "mode": "keyword",
+    "rank": null,
+    "ms": 8.432041970081627,
+    "top5": [
+     "D1c2515fd29",
+     "D44b991fcbd",
+     "D866cbc1592",
+     "D9e83de4d52",
+     "D4ebb3e2295"
+    ],
+    "confidence": 7.987986221313477
+   }
+  ],
+  "semantic": [
+   {
+    "id": "en01",
+    "lang": "en",
+    "category": "clinical",
+    "query": "What are the symptoms of malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.402000006753951,
+    "top5": [
+     "Dfee2e6ea98",
+     "P14",
+     "Dd3254da5f8",
+     "Dd6a1769f2b",
+     "Dce112b1459"
+    ],
+    "confidence": 0.8759355545043945
+   },
+   {
+    "id": "en02",
+    "lang": "en",
+    "category": "clinical",
+    "query": "amoxicillin dosage for a child",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.158209035173059,
+    "top5": [
+     "P24",
+     "Dec1d5ccb22",
+     "P33",
+     "D4813f9a5f0",
+     "D9d9716b620"
+    ],
+    "confidence": 0.9279123544692993
+   },
+   {
+    "id": "en03",
+    "lang": "en",
+    "category": "clinical",
+    "query": "woman bleeding heavily after giving birth, what should I do?",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.412874944042414,
+    "top5": [
+     "P23",
+     "De9093b6b47",
+     "D0ea302e15b",
+     "Dda0b8c2901",
+     "D3a2e8cc2bf"
+    ],
+    "confidence": 0.8774929046630859
+   },
+   {
+    "id": "en04",
+    "lang": "en",
+    "category": "clinical",
+    "query": "signs and diagnosis of pulmonary tuberculosis",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.177375013474375,
+    "top5": [
+     "P21",
+     "P22",
+     "D49a9834c4f",
+     "D16794eb94d",
+     "D4afd3f8cff"
+    ],
+    "confidence": 0.9297188520431519
+   },
+   {
+    "id": "en05",
+    "lang": "en",
+    "category": "clinical",
+    "query": "treatment regimen for drug-susceptible TB in children",
+    "relevant": [
+     "P49"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.372875046916306,
+    "top5": [
+     "P49",
+     "D1498e1b466",
+     "P34",
+     "D030d37cd08",
+     "Df7ea6d2f4b"
+    ],
+    "confidence": 0.923119306564331
+   },
+   {
+    "id": "en06",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is sleeping sickness treated?",
+    "relevant": [
+     "De3f857b161",
+     "Dfee2e6ea98",
+     "D3eb698da05"
+    ],
+    "mode": "semantic",
+    "rank": 6,
+    "ms": 8.117582998238504,
+    "top5": [
+     "Dde242c302e",
+     "Da3c2a32b51",
+     "Db88e5c92e9",
+     "D32ea4a9d92",
+     "D35e08369e9"
+    ],
+    "confidence": 0.8796001672744751
+   },
+   {
+    "id": "en07",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is cholera transmitted and how is it treated?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.236500027123839,
+    "top5": [
+     "D32ea4a9d92",
+     "D3eb698da05",
+     "D85d7eb197c",
+     "D279e1306ba",
+     "D3f77693628"
+    ],
+    "confidence": 0.8985665440559387
+   },
+   {
+    "id": "en08",
+    "lang": "en",
+    "category": "clinical",
+    "query": "visceral leishmaniasis treatment with AmBisome and miltefosine",
+    "relevant": [
+     "D8048b8fc82",
+     "D035530810c"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.432542032096535,
+    "top5": [
+     "D8048b8fc82",
+     "D035530810c",
+     "D20de515bc6",
+     "Dde242c302e",
+     "D9ae55ed798"
+    ],
+    "confidence": 0.946863055229187
+   },
+   {
+    "id": "en09",
+    "lang": "en",
+    "category": "clinical",
+    "query": "Ebola infection in pregnant women",
+    "relevant": [
+     "Dd3e3626d4a",
+     "Db4e4334847"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.121666964143515,
+    "top5": [
+     "Db4e4334847",
+     "Dd3e3626d4a",
+     "D5814f937ab",
+     "D6932910da8",
+     "D9c3366a7c9"
+    ],
+    "confidence": 0.8945090770721436
+   },
+   {
+    "id": "en10",
+    "lang": "en",
+    "category": "clinical",
+    "query": "is a single dose of oral cholera vaccine effective?",
+    "relevant": [
+     "D9962a0b190",
+     "D8954bd10a8",
+     "D66fe4cd145",
+     "D081f681b26",
+     "P33",
+     "D6e4fcedcad"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.226584002841264,
+    "top5": [
+     "P33",
+     "D8954bd10a8",
+     "D9962a0b190",
+     "D66fe4cd145",
+     "D6e4fcedcad"
+    ],
+    "confidence": 0.9218215346336365
+   },
+   {
+    "id": "en11",
+    "lang": "en",
+    "category": "clinical",
+    "query": "measles vaccination of infants at 6 months",
+    "relevant": [
+     "D8bc477871b",
+     "D3eb698da05"
+    ],
+    "mode": "semantic",
+    "rank": 2,
+    "ms": 8.078999991994351,
+    "top5": [
+     "Db006be0701",
+     "D8bc477871b",
+     "P33",
+     "D6a4632d088",
+     "Da3c2a32b51"
+    ],
+    "confidence": 0.9278391599655151
+   },
+   {
+    "id": "en12",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pneumococcal vaccine use in humanitarian crises",
+    "relevant": [
+     "D67e9876b52",
+     "P33"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.40487499954179,
+    "top5": [
+     "D67e9876b52",
+     "P33",
+     "D4dc223f819",
+     "Db006be0701",
+     "D9338fbb910"
+    ],
+    "confidence": 0.9386787414550781
+   },
+   {
+    "id": "en13",
+    "lang": "en",
+    "category": "clinical",
+    "query": "children bitten by snakes in Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.23604199104011,
+    "top5": [
+     "Da8a79bb208",
+     "D32ea4a9d92",
+     "D1fd995f42e",
+     "P12",
+     "D3a2e8cc2bf"
+    ],
+    "confidence": 0.8862018585205078
+   },
+   {
+    "id": "en14",
+    "lang": "en",
+    "category": "clinical",
+    "query": "what causes noma and which children are at risk?",
+    "relevant": [
+     "D1b06b6e33c",
+     "D4f51b3b8aa"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.244749973528087,
+    "top5": [
+     "D1b06b6e33c",
+     "D4f51b3b8aa",
+     "Dad97e8d44d",
+     "D32ea4a9d92",
+     "D5da0aed2fd"
+    ],
+    "confidence": 0.9095619916915894
+   },
+   {
+    "id": "en15",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pellagra and niacin deficiency in a post-war population",
+    "relevant": [
+     "Da75bdbcd90"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.499041956383735,
+    "top5": [
+     "Da75bdbcd90",
+     "D7a52c1f25b",
+     "D35e08369e9",
+     "D1fd995f42e",
+     "Df98e297b5f"
+    ],
+    "confidence": 0.9282943606376648
+   },
+   {
+    "id": "en16",
+    "lang": "en",
+    "category": "clinical",
+    "query": "bone and joint disease in rural Tibet linked to selenium",
+    "relevant": [
+     "D9dce5d3ce9"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.387749956455082,
+    "top5": [
+     "D9dce5d3ce9",
+     "Db88e5c92e9",
+     "Da3c2a32b51",
+     "D7a52c1f25b",
+     "Da7bd65da54"
+    ],
+    "confidence": 0.8849404454231262
+   },
+   {
+    "id": "en17",
+    "lang": "en",
+    "category": "clinical",
+    "query": "cervical cancer screening with HPV self-sampling",
+    "relevant": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "Dac76ae4784"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.040582993999124,
+    "top5": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "P33",
+     "Dac76ae4784",
+     "D115e2a4293"
+    ],
+    "confidence": 0.9045657515525818
+   },
+   {
+    "id": "en18",
+    "lang": "en",
+    "category": "clinical",
+    "query": "results of hepatitis C treatment in MSF programmes",
+    "relevant": [
+     "D70c5546837",
+     "D115e2a4293",
+     "D111832613c"
+    ],
+    "mode": "semantic",
+    "rank": 2,
+    "ms": 8.701083017513156,
+    "top5": [
+     "D32ea4a9d92",
+     "D115e2a4293",
+     "D111832613c",
+     "Dbb1bc86e28",
+     "D7f227c43c5"
+    ],
+    "confidence": 0.8990156054496765
+   },
+   {
+    "id": "en19",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MRSA carriage among patients in a Ugandan hospital",
+    "relevant": [
+     "D4543bc4b16"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.396000019274652,
+    "top5": [
+     "D4543bc4b16",
+     "De0610b719b",
+     "Dab5b7604b8",
+     "Dc5f2be378d",
+     "De789e08ccc"
+    ],
+    "confidence": 0.9383869171142578
+   },
+   {
+    "id": "en20",
+    "lang": "en",
+    "category": "clinical",
+    "query": "palliative care and symptom relief in humanitarian emergencies",
+    "relevant": [
+     "D09c3654e6e",
+     "Dfc2b1675a1"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.196874987334013,
+    "top5": [
+     "D09c3654e6e",
+     "D71c39bf00c",
+     "D1fd995f42e",
+     "D35e08369e9",
+     "D0197c14ba0"
+    ],
+    "confidence": 0.9267159700393677
+   },
+   {
+    "id": "en21",
+    "lang": "en",
+    "category": "research",
+    "query": "mental health of international humanitarian aid workers",
+    "relevant": [
+     "P15"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.456332958303392,
+    "top5": [
+     "P15",
+     "D35e08369e9",
+     "P43",
+     "D09c3654e6e",
+     "D8b233f27d2"
+    ],
+    "confidence": 0.9156991243362427
+   },
+   {
+    "id": "en22",
+    "lang": "en",
+    "category": "research",
+    "query": "portable bacteriology lab to detect antibiotic resistance in low-resource settings",
+    "relevant": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "D53e58415e7"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.234000008087605,
+    "top5": [
+     "D8ad70d7749",
+     "D04c8ff52a2",
+     "P35",
+     "D3ceda3d736",
+     "D73d7444763"
+    ],
+    "confidence": 0.9007590413093567
+   },
+   {
+    "id": "en23",
+    "lang": "en",
+    "category": "research",
+    "query": "clinical trials for Lassa fever treatment",
+    "relevant": [
+     "Dda0b8c2901",
+     "Df45b248d71"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.165542036294937,
+    "top5": [
+     "Dda0b8c2901",
+     "Df45b248d71",
+     "D8048b8fc82",
+     "D32ea4a9d92",
+     "D3eb698da05"
+    ],
+    "confidence": 0.9174021482467651
+   },
+   {
+    "id": "en24",
+    "lang": "en",
+    "category": "research",
+    "query": "are rapid diagnostic tests cost-effective during malaria epidemics?",
+    "relevant": [
+     "D1c2515fd29"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.198417024686933,
+    "top5": [
+     "D1c2515fd29",
+     "Da8de6138bd",
+     "Dc5f2be378d",
+     "D3207862e09",
+     "Da5753abc3e"
+    ],
+    "confidence": 0.9438134431838989
+   },
+   {
+    "id": "en25",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MDR-TB treatment with bedaquiline and delamanid",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.209874969907105,
+    "top5": [
+     "P20",
+     "D674b851bcf",
+     "Df7ea6d2f4b",
+     "D705d4b38bf",
+     "D98949d5e0c"
+    ],
+    "confidence": 0.9249551296234131
+   },
+   {
+    "id": "en26",
+    "lang": "en",
+    "category": "operations",
+    "query": "how many people did the Geo Barents rescue in the Central Mediterranean in March 2022?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.587334014009684,
+    "top5": [
+     "D6de324faad",
+     "D0c85bc1b4a",
+     "P45",
+     "Ddf4ea08a8c",
+     "D13b1b3785f"
+    ],
+    "confidence": 0.8654181957244873
+   },
+   {
+    "id": "en27",
+    "lang": "en",
+    "category": "operations",
+    "query": "drone attack on Al-Jabalain hospital in White Nile state",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.372917014639825,
+    "top5": [
+     "Db2de191d11",
+     "D8b3df52e9e",
+     "P07",
+     "D17e499ac0a",
+     "Dd4ee6d16b7"
+    ],
+    "confidence": 0.8999292254447937
+   },
+   {
+    "id": "en28",
+    "lang": "en",
+    "category": "operations",
+    "query": "Bundibugyo Ebola outbreak in Ituri",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.080458035692573,
+    "top5": [
+     "D8bafbbfb7a",
+     "D5d1bb4aad4",
+     "Dd2d4a2481b",
+     "D5375e4eb66",
+     "D9f045d83a6"
+    ],
+    "confidence": 0.8966060876846313
+   },
+   {
+    "id": "en29",
+    "lang": "en",
+    "category": "operations",
+    "query": "supply shortages at Nasser hospital in Gaza",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.222415985073894,
+    "top5": [
+     "D28f2e6484c",
+     "D292411330b",
+     "D485cf07c2f",
+     "D3a9dd210b9",
+     "Da9b1256749"
+    ],
+    "confidence": 0.9299771785736084
+   },
+   {
+    "id": "en30",
+    "lang": "en",
+    "category": "operations",
+    "query": "cholera outbreak in Upper Nile state, South Sudan",
+    "relevant": [
+     "D0fdc1d0ef5",
+     "D160b2d96cd",
+     "D6b8bfd81c8"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.364333014469594,
+    "top5": [
+     "D0fdc1d0ef5",
+     "D39b5a07cce",
+     "D6b8bfd81c8",
+     "D66fe4cd145",
+     "D85d7eb197c"
+    ],
+    "confidence": 0.9267887473106384
+   },
+   {
+    "id": "en31",
+    "lang": "en",
+    "category": "operations",
+    "query": "flooding in Maiduguri and risk of disease outbreaks",
+    "relevant": [
+     "De2f723ce04",
+     "D46868ca351"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.37024999782443,
+    "top5": [
+     "De2f723ce04",
+     "Db109fb893b",
+     "De03cafecf1",
+     "D68ec883ee2",
+     "D5a8d5824d6"
+    ],
+    "confidence": 0.919319212436676
+   },
+   {
+    "id": "en32",
+    "lang": "en",
+    "category": "operations",
+    "query": "rise in severe malnutrition admissions in southern Afghanistan",
+    "relevant": [
+     "D8a2f164116",
+     "Dab64a41cbe"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.286166994366795,
+    "top5": [
+     "D8a2f164116",
+     "D5da0aed2fd",
+     "Da3c2a32b51",
+     "D5710a4f4c5",
+     "Daa73c27a78"
+    ],
+    "confidence": 0.9188879132270813
+   },
+   {
+    "id": "en33",
+    "lang": "en",
+    "category": "operations",
+    "query": "UN Security Council resolution 2286 on protecting health care",
+    "relevant": [
+     "D0513ca68ff",
+     "D1c586e6f70",
+     "Dda1f1cf382"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.394874981604517,
+    "top5": [
+     "D0513ca68ff",
+     "Dda1f1cf382",
+     "D1c586e6f70",
+     "P27",
+     "D1fd995f42e"
+    ],
+    "confidence": 0.9049935936927795
+   },
+   {
+    "id": "en34",
+    "lang": "en",
+    "category": "operations",
+    "query": "why did MSF end its activities in northern Brazil?",
+    "relevant": [
+     "D1bcc414c13"
+    ],
+    "mode": "semantic",
+    "rank": 2,
+    "ms": 8.57087504118681,
+    "top5": [
+     "Db88e5c92e9",
+     "D1bcc414c13",
+     "Dfee2e6ea98",
+     "P43",
+     "Dbd6e2ef149"
+    ],
+    "confidence": 0.8667566776275635
+   },
+   {
+    "id": "en35",
+    "lang": "en",
+    "category": "legal",
+    "query": "who invented the term genocide?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.00354196690023,
+    "top5": [
+     "P25",
+     "Da384a9ee90",
+     "Da68d33c442",
+     "Dedb81e1789",
+     "D74c6cb64f3"
+    ],
+    "confidence": 0.9029791355133057
+   },
+   {
+    "id": "en36",
+    "lang": "en",
+    "category": "legal",
+    "query": "which international conventions has Madagascar ratified?",
+    "relevant": [
+     "D4c9ba9b73a"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.221749973017722,
+    "top5": [
+     "D4c9ba9b73a",
+     "D6d7fafbadc",
+     "De8e37cb6a1",
+     "D68ec883ee2",
+     "Da3c2a32b51"
+    ],
+    "confidence": 0.8820310235023499
+   },
+   {
+    "id": "en37",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF and the fall of Srebrenica in 1995",
+    "relevant": [
+     "Dd12a09cdc4",
+     "De04deb00e2",
+     "D23be77d49e"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.323833986651152,
+    "top5": [
+     "Dd12a09cdc4",
+     "Db88e5c92e9",
+     "D23be77d49e",
+     "Dd529d6b2d6",
+     "Da3c2a32b51"
+    ],
+    "confidence": 0.8910421133041382
+   },
+   {
+    "id": "en38",
+    "lang": "en",
+    "category": "history",
+    "query": "why did MSF withdraw from North Korea?",
+    "relevant": [
+     "D99b084ca58",
+     "D806bc9089a",
+     "D0648397364"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.425458974670619,
+    "top5": [
+     "D99b084ca58",
+     "D0648397364",
+     "D806bc9089a",
+     "Db88e5c92e9"
+    ],
+    "confidence": 0.8912330269813538
+   },
+   {
+    "id": "en39",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF public statements on war crimes in Chechnya",
+    "relevant": [
+     "P43",
+     "Db44a39eff2"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.73329199384898,
+    "top5": [
+     "Db44a39eff2",
+     "P43",
+     "Db88e5c92e9"
+    ],
+    "confidence": 0.9066459536552429
+   },
+   {
+    "id": "en40",
+    "lang": "en",
+    "category": "history",
+    "query": "Salvadoran refugee camps in Honduras",
+    "relevant": [
+     "Da5fd2a394e"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.189957996364683,
+    "top5": [
+     "Da5fd2a394e",
+     "P32",
+     "P41",
+     "D99b084ca58",
+     "Db88e5c92e9"
+    ],
+    "confidence": 0.8848862051963806
+   },
+   {
+    "id": "en41",
+    "lang": "en",
+    "category": "history",
+    "query": "forced relocations during the Ethiopian famine",
+    "relevant": [
+     "P41",
+     "D98f9c10fad"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.005624986253679,
+    "top5": [
+     "P41",
+     "D98f9c10fad"
+    ],
+    "confidence": 0.9115741848945618
+   },
+   {
+    "id": "en42",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF total income and expenditure in 2021",
+    "relevant": [
+     "P46"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.48854100331664,
+    "top5": [
+     "P46",
+     "P47",
+     "P45"
+    ],
+    "confidence": 0.9178664088249207
+   },
+   {
+    "id": "en43",
+    "lang": "en",
+    "category": "finance",
+    "query": "where did MSF's money come from in 2024?",
+    "relevant": [
+     "P45"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.610958000645041,
+    "top5": [
+     "P45",
+     "D10d6a75496",
+     "P46"
+    ],
+    "confidence": 0.8894339799880981
+   },
+   {
+    "id": "en44",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF international financial report 2018",
+    "relevant": [
+     "P47"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.495457994285971,
+    "top5": [
+     "P47",
+     "P46",
+     "P45",
+     "D32ea4a9d92",
+     "P48"
+    ],
+    "confidence": 0.9118602275848389
+   },
+   {
+    "id": "fr01",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quels sont les symptômes du paludisme ?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.111500006634742,
+    "top5": [
+     "Dd19d457d52",
+     "D40369c9b91",
+     "Dfc8173d0de",
+     "D7dbb77c873",
+     "Da5753abc3e"
+    ],
+    "confidence": 0.8626471757888794
+   },
+   {
+    "id": "fr02",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quelle dose d'amoxicilline donner à un enfant ?",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.239999995566905,
+    "top5": [
+     "P24",
+     "Ddd0aaff8ee",
+     "D030d37cd08",
+     "Dd5074a1835",
+     "D40369c9b91"
+    ],
+    "confidence": 0.8673545497131347
+   },
+   {
+    "id": "fr03",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Prise en charge d'une hémorragie après l'accouchement",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "semantic",
+    "rank": 4,
+    "ms": 8.37833300465718,
+    "top5": [
+     "Dff0977248b",
+     "Dd19d457d52",
+     "D6e4de69f32",
+     "P23",
+     "D8ddd1fa37b"
+    ],
+    "confidence": 0.876714624710083
+   },
+   {
+    "id": "fr04",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Signes cliniques de la tuberculose pulmonaire",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.13404202926904,
+    "top5": [
+     "P22",
+     "Ddf8cc4588f",
+     "P21",
+     "D9e021943b7",
+     "Df8d55f1f0f"
+    ],
+    "confidence": 0.9439046382904053
+   },
+   {
+    "id": "fr05",
+    "lang": "fr",
+    "category": "legal",
+    "query": "Qui a inventé le mot génocide ?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.161709003616124,
+    "top5": [
+     "P25",
+     "Da68d33c442",
+     "Da384a9ee90",
+     "Dedb81e1789",
+     "D3ee82c6349"
+    ],
+    "confidence": 0.8278465101242065
+   },
+   {
+    "id": "fr06",
+    "lang": "fr",
+    "category": "operations",
+    "query": "Combien de personnes le Geo Barents a-t-il secourues en mars 2022 ?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.349208044819534,
+    "top5": [
+     "Da906dd6c63",
+     "D5075be3d1d",
+     "D756e06cd6d",
+     "Dbd53eb7cac",
+     "D4ebb3e2295"
+    ],
+    "confidence": 0.8377032973561969
+   },
+   {
+    "id": "ar01",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "ما هي أعراض الملاريا؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.162457961589098,
+    "top5": [
+     "D8d18203d3a",
+     "Df5738d956a",
+     "D855a2aa8c6",
+     "D8d099e6717",
+     "D46868ca351"
+    ],
+    "confidence": 0.8501477837562561
+   },
+   {
+    "id": "ar02",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "كيف تنتقل الكوليرا وكيف تعالج؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "semantic",
+    "rank": 9,
+    "ms": 8.139582991134375,
+    "top5": [
+     "Df5738d956a",
+     "D855a2aa8c6",
+     "D160b2d96cd",
+     "Dc09cbc73ed",
+     "Dac15cd638c"
+    ],
+    "confidence": 0.8636838572692871
+   },
+   {
+    "id": "ar03",
+    "lang": "ar",
+    "category": "operations",
+    "query": "الهجوم على مستشفى الجبلين في ولاية النيل الأبيض",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "semantic",
+    "rank": 7,
+    "ms": 8.284959010779858,
+    "top5": [
+     "D8d099e6717",
+     "D3fcfb82721",
+     "D6955e41d32",
+     "Da62ea9bf7f",
+     "D5ba45ea0c7"
+    ],
+    "confidence": 0.8490530039787293
+   },
+   {
+    "id": "ar04",
+    "lang": "ar",
+    "category": "operations",
+    "query": "تفشي إيبولا بونديبوغيو في إيتوري",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.405875007156283,
+    "top5": [
+     "Dac15cd638c",
+     "D9f045d83a6",
+     "Dacd418953a",
+     "D19b04b35f2",
+     "Dc835fd8fa5"
+    ],
+    "confidence": 0.8684642910957336
+   },
+   {
+    "id": "ar05",
+    "lang": "ar",
+    "category": "operations",
+    "query": "نقص الإمدادات في مستشفى ناصر في غزة",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.245165983680636,
+    "top5": [
+     "D98399d39a0",
+     "D7a5af7866b",
+     "D3889964229",
+     "D6955e41d32",
+     "D25c399e2a3"
+    ],
+    "confidence": 0.9107987880706787
+   },
+   {
+    "id": "es01",
+    "lang": "es",
+    "category": "clinical",
+    "query": "¿Cuáles son los síntomas de la malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "semantic",
+    "rank": 4,
+    "ms": 8.149624976795167,
+    "top5": [
+     "Dce112b1459",
+     "D1c2515fd29",
+     "Dd3254da5f8",
+     "Dfee2e6ea98",
+     "Dd6a1769f2b"
+    ],
+    "confidence": 0.8434581756591797
+   },
+   {
+    "id": "es02",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Tratamiento de la tuberculosis multirresistente con bedaquilina",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.227208978496492,
+    "top5": [
+     "D030d37cd08",
+     "D866cbc1592",
+     "D4ebb3e2295",
+     "P20",
+     "Dfc8173d0de"
+    ],
+    "confidence": 0.9017927646636963
+   },
+   {
+    "id": "es03",
+    "lang": "es",
+    "category": "research",
+    "query": "Control de mosquitos con Wolbachia en Honduras",
+    "relevant": [
+     "D1c730f5fe6"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.1627499894239,
+    "top5": [
+     "D1c730f5fe6",
+     "Db88e5c92e9",
+     "Da3c2a32b51",
+     "D2306bbff2b",
+     "D80d8682e92"
+    ],
+    "confidence": 0.9180895090103149
+   },
+   {
+    "id": "es04",
+    "lang": "es",
+    "category": "research",
+    "query": "Prevalencia de úlceras genitales en Pweto, República Democrática del Congo",
+    "relevant": [
+     "D8aa6e6503b"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.404791995417327,
+    "top5": [
+     "D8aa6e6503b",
+     "Dfc8173d0de",
+     "D7dbccfcf92",
+     "Da5753abc3e",
+     "D795c870cf1"
+    ],
+    "confidence": 0.9363954164777484
+   },
+   {
+    "id": "es05",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Mordeduras de serpiente en niños en Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "semantic",
+    "rank": 1,
+    "ms": 8.142833015881479,
+    "top5": [
+     "Da8a79bb208",
+     "D866cbc1592",
+     "D5da0aed2fd",
+     "D8aa6e6503b",
+     "D795c870cf1"
+    ],
+    "confidence": 0.8433406694412231
+   },
+   {
+    "id": "na01",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to treat Lyme disease",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.112000010441989,
+    "top5": [
+     "D12eb6a44ae",
+     "D8048b8fc82",
+     "D035530810c",
+     "D9d9716b620",
+     "Da3c2a32b51"
+    ],
+    "confidence": 0.864905340385437
+   },
+   {
+    "id": "na02",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "rehabilitation after knee ligament surgery",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.204625046346337,
+    "top5": [
+     "D35e08369e9",
+     "D3eb698da05",
+     "Ddc851011e7",
+     "D1fa284e16c",
+     "D0197c14ba0"
+    ],
+    "confidence": 0.8403198293685913
+   },
+   {
+    "id": "na03",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "dental implant procedure steps",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 7.989417004864663,
+    "top5": [
+     "D49a9834c4f",
+     "D1fa284e16c",
+     "D9d9716b620",
+     "Df98e297b5f",
+     "D84c3dce66e"
+    ],
+    "confidence": 0.8452147245407104
+   },
+   {
+    "id": "na04",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "insulin pump settings for type 1 diabetes",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.167708001565188,
+    "top5": [
+     "D08b1166a91",
+     "D49a9834c4f",
+     "Dcb61e1119f",
+     "P33",
+     "D9d9716b620"
+    ],
+    "confidence": 0.8655513525009155
+   },
+   {
+    "id": "na05",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "treatment of acute mountain sickness at high altitude",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.291041012853384,
+    "top5": [
+     "D49a9834c4f",
+     "D35e08369e9",
+     "D0197c14ba0",
+     "D9d9716b620",
+     "Df98e297b5f"
+    ],
+    "confidence": 0.866337239742279
+   },
+   {
+    "id": "na06",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "MSF projects in Antarctica",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.473999972920865,
+    "top5": [
+     "D1bcc414c13",
+     "Db88e5c92e9",
+     "D32ea4a9d92",
+     "Dfee2e6ea98",
+     "D10d6a75496"
+    ],
+    "confidence": 0.8552900382995605
+   },
+   {
+    "id": "na07",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to manage an acute gout attack",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.09416698757559,
+    "top5": [
+     "D7dbccfcf92",
+     "D49a9834c4f",
+     "De04128df46",
+     "D5da0aed2fd",
+     "D0197c14ba0"
+    ],
+    "confidence": 0.8697528413772583
+   },
+   {
+    "id": "na08",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "multiple sclerosis disease-modifying therapy",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.09645903063938,
+    "top5": [
+     "D6b93916a5a",
+     "Da3c2a32b51",
+     "D35e08369e9",
+     "Dbb1bc86e28",
+     "D98949d5e0c"
+    ],
+    "confidence": 0.8752079606056213
+   },
+   {
+    "id": "na09",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "glaucoma eye drops and intraocular pressure",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.21479200385511,
+    "top5": [
+     "Dcf618c0995",
+     "Dcb61e1119f",
+     "P33",
+     "P23",
+     "Da3c2a32b51"
+    ],
+    "confidence": 0.8379452978515625
+   },
+   {
+    "id": "na10",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "botox injection dose for wrinkles",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.035041973926127,
+    "top5": [
+     "D9d9716b620",
+     "P33",
+     "P20",
+     "Df98e297b5f",
+     "D86163d450a"
+    ],
+    "confidence": 0.847894702720642
+   },
+   {
+    "id": "na11",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "gluten-free diet for coeliac disease",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.280082955025136,
+    "top5": [
+     "D2b2708f82d",
+     "D9d9716b620",
+     "D99b084ca58",
+     "Dfee2e6ea98",
+     "Da7bd65da54"
+    ],
+    "confidence": 0.8443313394927978
+   },
+   {
+    "id": "na12",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "best medication for migraine headaches",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.058250008616596,
+    "top5": [
+     "D9d9716b620",
+     "D7d3811047b",
+     "D35e08369e9",
+     "P20",
+     "Dcb61e1119f"
+    ],
+    "confidence": 0.862384634399414
+   },
+   {
+    "id": "na13",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "LASIK laser surgery for short-sightedness",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.106541994493455,
+    "top5": [
+     "D35e08369e9",
+     "Dcacacc3bb7",
+     "Dda0b8c2901",
+     "D9980aae794",
+     "D1fa284e16c"
+    ],
+    "confidence": 0.8311086075973511
+   },
+   {
+    "id": "na14",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "tinnitus ringing in the ears treatment",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.25866701779887,
+    "top5": [
+     "D7d3811047b",
+     "D9d9716b620",
+     "Df98e297b5f",
+     "D49a9834c4f",
+     "Dde242c302e"
+    ],
+    "confidence": 0.8545654586791992
+   },
+   {
+    "id": "na15",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "Comment traiter la maladie de Lyme ?",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.025792019907385,
+    "top5": [
+     "Dff0977248b",
+     "Dc1c94fd2b0",
+     "D9d4ec452ad",
+     "Dc64138c9ce",
+     "D0f4ce98344"
+    ],
+    "confidence": 0.8491320184707641
+   },
+   {
+    "id": "na16",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "traitement du glaucome",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 7.857416989281774,
+    "top5": [
+     "D87af7060b1",
+     "Dc1c94fd2b0",
+     "D9e021943b7",
+     "Dd5074a1835",
+     "Dc64138c9ce"
+    ],
+    "confidence": 0.8473131402015686
+   },
+   {
+    "id": "na17",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "علاج الصداع النصفي",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 7.9362919786944985,
+    "top5": [
+     "Dd625eb4d57",
+     "D5da294f26a",
+     "D2764b19112",
+     "D9996afe2d0",
+     "D25c399e2a3"
+    ],
+    "confidence": 0.8219424146652222
+   },
+   {
+    "id": "na18",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "إعدادات مضخة الأنسولين لمرضى السكري",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 8.051334007177502,
+    "top5": [
+     "De65d413d46",
+     "D3201fea5f5",
+     "D9d9716b620",
+     "D8025c7c417",
+     "D160b2d96cd"
+    ],
+    "confidence": 0.8309800182723999
+   },
+   {
+    "id": "na19",
+    "lang": "es",
+    "category": "no-answer",
+    "query": "tratamiento de la esclerosis múltiple",
+    "relevant": [],
+    "mode": "semantic",
+    "rank": null,
+    "ms": 7.970375008881092,
+    "top5": [
+     "D04304ea6c4",
+     "Def416d05a4",
+     "D866cbc1592",
+     "D6b18f4994b",
+     "D9e83de4d52"
+    ],
+    "confidence": 0.8523212501525879
+   }
+  ],
+  "hybrid": [
+   {
+    "id": "en01",
+    "lang": "en",
+    "category": "clinical",
+    "query": "What are the symptoms of malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.190917025785893,
+    "top5": [
+     "Dfee2e6ea98",
+     "Dd6a1769f2b",
+     "Dd3254da5f8",
+     "D3eb698da05",
+     "D3fff8fb771"
+    ],
+    "confidence": 0.0479384003974168
+   },
+   {
+    "id": "en02",
+    "lang": "en",
+    "category": "clinical",
+    "query": "amoxicillin dosage for a child",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.109582995530218,
+    "top5": [
+     "P24",
+     "Dec1d5ccb22",
+     "Dab5b7604b8",
+     "D0db6bc77dd",
+     "Dd3254da5f8"
+    ],
+    "confidence": 0.048915917503966164
+   },
+   {
+    "id": "en03",
+    "lang": "en",
+    "category": "clinical",
+    "query": "woman bleeding heavily after giving birth, what should I do?",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "hybrid",
+    "rank": 3,
+    "ms": 8.368083974346519,
+    "top5": [
+     "De9093b6b47",
+     "D0ea302e15b",
+     "P23",
+     "Db4e4334847",
+     "Dda0b8c2901"
+    ],
+    "confidence": 0.046671404880360104
+   },
+   {
+    "id": "en04",
+    "lang": "en",
+    "category": "clinical",
+    "query": "signs and diagnosis of pulmonary tuberculosis",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.251374994870275,
+    "top5": [
+     "P21",
+     "D16794eb94d",
+     "D4afd3f8cff",
+     "D3fff8fb771",
+     "P22"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en05",
+    "lang": "en",
+    "category": "clinical",
+    "query": "treatment regimen for drug-susceptible TB in children",
+    "relevant": [
+     "P49"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.446583000477403,
+    "top5": [
+     "P49",
+     "P34",
+     "D1498e1b466",
+     "D030d37cd08",
+     "D674b851bcf"
+    ],
+    "confidence": 0.04817150063051703
+   },
+   {
+    "id": "en06",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is sleeping sickness treated?",
+    "relevant": [
+     "De3f857b161",
+     "Dfee2e6ea98",
+     "D3eb698da05"
+    ],
+    "mode": "hybrid",
+    "rank": 5,
+    "ms": 8.075791993178427,
+    "top5": [
+     "Da3c2a32b51",
+     "Dde242c302e",
+     "Db88e5c92e9",
+     "D32ea4a9d92",
+     "De3f857b161"
+    ],
+    "confidence": 0.04713064713064713
+   },
+   {
+    "id": "en07",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is cholera transmitted and how is it treated?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.087166002951562,
+    "top5": [
+     "D32ea4a9d92",
+     "D3eb698da05",
+     "D279e1306ba",
+     "D85d7eb197c",
+     "D3f77693628"
+    ],
+    "confidence": 0.04865990111891752
+   },
+   {
+    "id": "en08",
+    "lang": "en",
+    "category": "clinical",
+    "query": "visceral leishmaniasis treatment with AmBisome and miltefosine",
+    "relevant": [
+     "D8048b8fc82",
+     "D035530810c"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.36858298862353,
+    "top5": [
+     "D8048b8fc82",
+     "D20de515bc6",
+     "D11201a228a",
+     "D7b1162c6ec",
+     "Ddd0aaff8ee"
+    ],
+    "confidence": 0.047371031746031744
+   },
+   {
+    "id": "en09",
+    "lang": "en",
+    "category": "clinical",
+    "query": "Ebola infection in pregnant women",
+    "relevant": [
+     "Dd3e3626d4a",
+     "Db4e4334847"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.15458397846669,
+    "top5": [
+     "Db4e4334847",
+     "D9c3366a7c9",
+     "D5814f937ab",
+     "Dd3e3626d4a",
+     "D6932910da8"
+    ],
+    "confidence": 0.048651507139079855
+   },
+   {
+    "id": "en10",
+    "lang": "en",
+    "category": "clinical",
+    "query": "is a single dose of oral cholera vaccine effective?",
+    "relevant": [
+     "D9962a0b190",
+     "D8954bd10a8",
+     "D66fe4cd145",
+     "D081f681b26",
+     "P33",
+     "D6e4fcedcad"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.307332987897098,
+    "top5": [
+     "D8954bd10a8",
+     "D9962a0b190",
+     "P33",
+     "D6e4fcedcad",
+     "D66fe4cd145"
+    ],
+    "confidence": 0.04740957966764418
+   },
+   {
+    "id": "en11",
+    "lang": "en",
+    "category": "clinical",
+    "query": "measles vaccination of infants at 6 months",
+    "relevant": [
+     "D8bc477871b",
+     "D3eb698da05"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.1250419607386,
+    "top5": [
+     "D8bc477871b",
+     "Db006be0701",
+     "P33",
+     "D6a4632d088",
+     "Da3c2a32b51"
+    ],
+    "confidence": 0.04764267990074442
+   },
+   {
+    "id": "en12",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pneumococcal vaccine use in humanitarian crises",
+    "relevant": [
+     "D67e9876b52",
+     "P33"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.341000007931143,
+    "top5": [
+     "D67e9876b52",
+     "D4dc223f819",
+     "P33",
+     "Dfee2e6ea98",
+     "D9338fbb910"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en13",
+    "lang": "en",
+    "category": "clinical",
+    "query": "children bitten by snakes in Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.159500022884458,
+    "top5": [
+     "Da8a79bb208",
+     "D32ea4a9d92",
+     "P12",
+     "D7ce58ac770",
+     "P05"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en14",
+    "lang": "en",
+    "category": "clinical",
+    "query": "what causes noma and which children are at risk?",
+    "relevant": [
+     "D1b06b6e33c",
+     "D4f51b3b8aa"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.252917032223195,
+    "top5": [
+     "D1b06b6e33c",
+     "D4f51b3b8aa",
+     "Da906dd6c63",
+     "D866cbc1592",
+     "D3eb698da05"
+    ],
+    "confidence": 0.04788306451612903
+   },
+   {
+    "id": "en15",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pellagra and niacin deficiency in a post-war population",
+    "relevant": [
+     "Da75bdbcd90"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.516958972904831,
+    "top5": [
+     "Da75bdbcd90",
+     "Db88e5c92e9",
+     "D11201a228a",
+     "D7b1162c6ec",
+     "Ddd0aaff8ee"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en16",
+    "lang": "en",
+    "category": "clinical",
+    "query": "bone and joint disease in rural Tibet linked to selenium",
+    "relevant": [
+     "D9dce5d3ce9"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.382000029087067,
+    "top5": [
+     "D9dce5d3ce9",
+     "Db88e5c92e9",
+     "Da3c2a32b51",
+     "Da7bd65da54",
+     "Dde242c302e"
+    ],
+    "confidence": 0.048915917503966164
+   },
+   {
+    "id": "en17",
+    "lang": "en",
+    "category": "clinical",
+    "query": "cervical cancer screening with HPV self-sampling",
+    "relevant": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "Dac76ae4784"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.119000005535781,
+    "top5": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "P33",
+     "Dac76ae4784",
+     "D32ea4a9d92"
+    ],
+    "confidence": 0.048915917503966164
+   },
+   {
+    "id": "en18",
+    "lang": "en",
+    "category": "clinical",
+    "query": "results of hepatitis C treatment in MSF programmes",
+    "relevant": [
+     "D70c5546837",
+     "D115e2a4293",
+     "D111832613c"
+    ],
+    "mode": "hybrid",
+    "rank": 2,
+    "ms": 8.725541993044317,
+    "top5": [
+     "D32ea4a9d92",
+     "D115e2a4293",
+     "D7f227c43c5",
+     "D111832613c",
+     "Dbb1bc86e28"
+    ],
+    "confidence": 0.04787506400409626
+   },
+   {
+    "id": "en19",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MRSA carriage among patients in a Ugandan hospital",
+    "relevant": [
+     "D4543bc4b16"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.463583013508469,
+    "top5": [
+     "D4543bc4b16",
+     "De0610b719b",
+     "Dab5b7604b8",
+     "De789e08ccc",
+     "D3fff8fb771"
+    ],
+    "confidence": 0.04817150063051703
+   },
+   {
+    "id": "en20",
+    "lang": "en",
+    "category": "clinical",
+    "query": "palliative care and symptom relief in humanitarian emergencies",
+    "relevant": [
+     "D09c3654e6e",
+     "Dfc2b1675a1"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.32783296937123,
+    "top5": [
+     "D09c3654e6e",
+     "D71c39bf00c",
+     "D35e08369e9",
+     "D1fd995f42e",
+     "D0197c14ba0"
+    ],
+    "confidence": 0.048915917503966164
+   },
+   {
+    "id": "en21",
+    "lang": "en",
+    "category": "research",
+    "query": "mental health of international humanitarian aid workers",
+    "relevant": [
+     "P15"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.63720802590251,
+    "top5": [
+     "P15",
+     "D35e08369e9",
+     "P43",
+     "P32",
+     "D09c3654e6e"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en22",
+    "lang": "en",
+    "category": "research",
+    "query": "portable bacteriology lab to detect antibiotic resistance in low-resource settings",
+    "relevant": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "D53e58415e7"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.284374955110252,
+    "top5": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "P35",
+     "D11201a228a",
+     "D7b1162c6ec"
+    ],
+    "confidence": 0.04813947436898257
+   },
+   {
+    "id": "en23",
+    "lang": "en",
+    "category": "research",
+    "query": "clinical trials for Lassa fever treatment",
+    "relevant": [
+     "Dda0b8c2901",
+     "Df45b248d71"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.20279197068885,
+    "top5": [
+     "Dda0b8c2901",
+     "Df45b248d71",
+     "D11201a228a",
+     "D7b1162c6ec",
+     "Ddd0aaff8ee"
+    ],
+    "confidence": 0.04643206256109482
+   },
+   {
+    "id": "en24",
+    "lang": "en",
+    "category": "research",
+    "query": "are rapid diagnostic tests cost-effective during malaria epidemics?",
+    "relevant": [
+     "D1c2515fd29"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.262875024229288,
+    "top5": [
+     "D1c2515fd29",
+     "Da8de6138bd",
+     "Dac15cd638c",
+     "D7b1162c6ec",
+     "Dad7d7e880f"
+    ],
+    "confidence": 0.04838709677419355
+   },
+   {
+    "id": "en25",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MDR-TB treatment with bedaquiline and delamanid",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.43758403789252,
+    "top5": [
+     "P20",
+     "D674b851bcf",
+     "D705d4b38bf",
+     "Df7ea6d2f4b",
+     "D98949d5e0c"
+    ],
+    "confidence": 0.047162673392181595
+   },
+   {
+    "id": "en26",
+    "lang": "en",
+    "category": "operations",
+    "query": "how many people did the Geo Barents rescue in the Central Mediterranean in March 2022?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.687583031132817,
+    "top5": [
+     "D6de324faad",
+     "D0c85bc1b4a",
+     "P45",
+     "D13b1b3785f",
+     "Ddf4ea08a8c"
+    ],
+    "confidence": 0.048915917503966164
+   },
+   {
+    "id": "en27",
+    "lang": "en",
+    "category": "operations",
+    "query": "drone attack on Al-Jabalain hospital in White Nile state",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.489915984682739,
+    "top5": [
+     "Db2de191d11",
+     "D8b3df52e9e",
+     "D17e499ac0a",
+     "De03cafecf1",
+     "Db7cd3d41af"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en28",
+    "lang": "en",
+    "category": "operations",
+    "query": "Bundibugyo Ebola outbreak in Ituri",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.109582995530218,
+    "top5": [
+     "D8bafbbfb7a",
+     "D5d1bb4aad4",
+     "Dd2d4a2481b",
+     "D5375e4eb66",
+     "D32ea4a9d92"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en29",
+    "lang": "en",
+    "category": "operations",
+    "query": "supply shortages at Nasser hospital in Gaza",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.219374984037131,
+    "top5": [
+     "D28f2e6484c",
+     "P07",
+     "Da9b1256749",
+     "D3a9dd210b9",
+     "D485cf07c2f"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en30",
+    "lang": "en",
+    "category": "operations",
+    "query": "cholera outbreak in Upper Nile state, South Sudan",
+    "relevant": [
+     "D0fdc1d0ef5",
+     "D160b2d96cd",
+     "D6b8bfd81c8"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.410541980993003,
+    "top5": [
+     "D0fdc1d0ef5",
+     "D6b8bfd81c8",
+     "D3eb698da05",
+     "D85d7eb197c",
+     "D8954bd10a8"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en31",
+    "lang": "en",
+    "category": "operations",
+    "query": "flooding in Maiduguri and risk of disease outbreaks",
+    "relevant": [
+     "De2f723ce04",
+     "D46868ca351"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.373583026695997,
+    "top5": [
+     "De2f723ce04",
+     "D88155b92de",
+     "D1ef8b2e740",
+     "Db109fb893b",
+     "De03cafecf1"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en32",
+    "lang": "en",
+    "category": "operations",
+    "query": "rise in severe malnutrition admissions in southern Afghanistan",
+    "relevant": [
+     "D8a2f164116",
+     "Dab64a41cbe"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.333167003002018,
+    "top5": [
+     "D8a2f164116",
+     "D5da0aed2fd",
+     "Daa73c27a78",
+     "Dd3254da5f8",
+     "Da3c2a32b51"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en33",
+    "lang": "en",
+    "category": "operations",
+    "query": "UN Security Council resolution 2286 on protecting health care",
+    "relevant": [
+     "D0513ca68ff",
+     "D1c586e6f70",
+     "Dda1f1cf382"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.421999984420836,
+    "top5": [
+     "D0513ca68ff",
+     "Dda1f1cf382",
+     "D597b901fc0",
+     "D2fc6ab5472",
+     "P27"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en34",
+    "lang": "en",
+    "category": "operations",
+    "query": "why did MSF end its activities in northern Brazil?",
+    "relevant": [
+     "D1bcc414c13"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.736749994568527,
+    "top5": [
+     "D1bcc414c13",
+     "Dfee2e6ea98",
+     "Db88e5c92e9",
+     "Da3c2a32b51",
+     "P43"
+    ],
+    "confidence": 0.048651507139079855
+   },
+   {
+    "id": "en35",
+    "lang": "en",
+    "category": "legal",
+    "query": "who invented the term genocide?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.143957995343953,
+    "top5": [
+     "P25",
+     "Da384a9ee90",
+     "Da68d33c442",
+     "P32",
+     "Dd625eb4d57"
+    ],
+    "confidence": 0.0479384003974168
+   },
+   {
+    "id": "en36",
+    "lang": "en",
+    "category": "legal",
+    "query": "which international conventions has Madagascar ratified?",
+    "relevant": [
+     "D4c9ba9b73a"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.328124997206032,
+    "top5": [
+     "D4c9ba9b73a",
+     "D6d7fafbadc",
+     "De8e37cb6a1",
+     "Df85d288c91",
+     "P32"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en37",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF and the fall of Srebrenica in 1995",
+    "relevant": [
+     "Dd12a09cdc4",
+     "De04deb00e2",
+     "D23be77d49e"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.468792017083615,
+    "top5": [
+     "Dd12a09cdc4",
+     "Db88e5c92e9",
+     "D23be77d49e",
+     "D1c586e6f70",
+     "D866cbc1592"
+    ],
+    "confidence": 0.04614695340501792
+   },
+   {
+    "id": "en38",
+    "lang": "en",
+    "category": "history",
+    "query": "why did MSF withdraw from North Korea?",
+    "relevant": [
+     "D99b084ca58",
+     "D806bc9089a",
+     "D0648397364"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.447500003967434,
+    "top5": [
+     "D99b084ca58",
+     "D0648397364",
+     "D5ba45ea0c7",
+     "D4ebb3e2295",
+     "Dee50ded210"
+    ],
+    "confidence": 0.04838709677419355
+   },
+   {
+    "id": "en39",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF public statements on war crimes in Chechnya",
+    "relevant": [
+     "P43",
+     "Db44a39eff2"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.684290980454534,
+    "top5": [
+     "P43",
+     "Db44a39eff2",
+     "Dd625eb4d57",
+     "D4ebb3e2295",
+     "D5075be3d1d"
+    ],
+    "confidence": 0.0449486301369863
+   },
+   {
+    "id": "en40",
+    "lang": "en",
+    "category": "history",
+    "query": "Salvadoran refugee camps in Honduras",
+    "relevant": [
+     "Da5fd2a394e"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.268458012025803,
+    "top5": [
+     "Da5fd2a394e",
+     "P32",
+     "P41",
+     "D99b084ca58",
+     "Dd12a09cdc4"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "en41",
+    "lang": "en",
+    "category": "history",
+    "query": "forced relocations during the Ethiopian famine",
+    "relevant": [
+     "P41",
+     "D98f9c10fad"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.14704195363447,
+    "top5": [
+     "P41",
+     "D7acf22526b",
+     "D866cbc1592",
+     "Da906dd6c63",
+     "Db305b45b94"
+    ],
+    "confidence": 0.04788306451612903
+   },
+   {
+    "id": "en42",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF total income and expenditure in 2021",
+    "relevant": [
+     "P46"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.825499971862882,
+    "top5": [
+     "P46",
+     "Da62ea9bf7f",
+     "D4ebb3e2295",
+     "D5075be3d1d",
+     "P47"
+    ],
+    "confidence": 0.048651507139079855
+   },
+   {
+    "id": "en43",
+    "lang": "en",
+    "category": "finance",
+    "query": "where did MSF's money come from in 2024?",
+    "relevant": [
+     "P45"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.718999975826591,
+    "top5": [
+     "P45",
+     "D32ea4a9d92",
+     "D012ed396fd",
+     "D4ebb3e2295",
+     "D5075be3d1d"
+    ],
+    "confidence": 0.044150521609538
+   },
+   {
+    "id": "en44",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF international financial report 2018",
+    "relevant": [
+     "P47"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.71308398200199,
+    "top5": [
+     "P47",
+     "P46",
+     "P45",
+     "D1c586e6f70",
+     "D4ebb3e2295"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "fr01",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quels sont les symptômes du paludisme ?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.21475003613159,
+    "top5": [
+     "Dd19d457d52",
+     "D7dbb77c873",
+     "Dfc8173d0de",
+     "D40369c9b91",
+     "P22"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "fr02",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quelle dose d'amoxicilline donner à un enfant ?",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "hybrid",
+    "rank": 7,
+    "ms": 8.325124974362552,
+    "top5": [
+     "Dd5074a1835",
+     "D9e021943b7",
+     "D40369c9b91",
+     "Dd19d457d52",
+     "D030d37cd08"
+    ],
+    "confidence": 0.0413637409374327
+   },
+   {
+    "id": "fr03",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Prise en charge d'une hémorragie après l'accouchement",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.43420799355954,
+    "top5": [
+     "Dd19d457d52",
+     "Dff0977248b",
+     "D86ccec4869",
+     "D6e4de69f32",
+     "D9d4ec452ad"
+    ],
+    "confidence": 0.04717999003253049
+   },
+   {
+    "id": "fr04",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Signes cliniques de la tuberculose pulmonaire",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.14300001366064,
+    "top5": [
+     "P22",
+     "Ddf8cc4588f",
+     "Df8d55f1f0f",
+     "D9e021943b7",
+     "D3f13adccf5"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "fr05",
+    "lang": "fr",
+    "category": "legal",
+    "query": "Qui a inventé le mot génocide ?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "hybrid",
+    "rank": 2,
+    "ms": 8.257416018750519,
+    "top5": [
+     "Da68d33c442",
+     "P25",
+     "Da384a9ee90",
+     "Dedb81e1789",
+     "D3ee82c6349"
+    ],
+    "confidence": 0.04500720545495193
+   },
+   {
+    "id": "fr06",
+    "lang": "fr",
+    "category": "operations",
+    "query": "Combien de personnes le Geo Barents a-t-il secourues en mars 2022 ?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "hybrid",
+    "rank": 8,
+    "ms": 8.543041010852903,
+    "top5": [
+     "D5075be3d1d",
+     "Da906dd6c63",
+     "Dbd53eb7cac",
+     "D756e06cd6d",
+     "D04304ea6c4"
+    ],
+    "confidence": 0.04306761250712071
+   },
+   {
+    "id": "ar01",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "ما هي أعراض الملاريا؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.150750014465302,
+    "top5": [
+     "Db6773e8c18",
+     "Da5383a3d0a",
+     "D8d18203d3a",
+     "D46868ca351",
+     "D25c399e2a3"
+    ],
+    "confidence": 0.04477611940298507
+   },
+   {
+    "id": "ar02",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "كيف تنتقل الكوليرا وكيف تعالج؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "hybrid",
+    "rank": 6,
+    "ms": 8.153125003445894,
+    "top5": [
+     "Df5738d956a",
+     "D160b2d96cd",
+     "D855a2aa8c6",
+     "Dc09cbc73ed",
+     "Dff0977248b"
+    ],
+    "confidence": 0.04816590111891752
+   },
+   {
+    "id": "ar03",
+    "lang": "ar",
+    "category": "operations",
+    "query": "الهجوم على مستشفى الجبلين في ولاية النيل الأبيض",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "hybrid",
+    "rank": 9,
+    "ms": 8.232208027038723,
+    "top5": [
+     "D3fcfb82721",
+     "D5ba45ea0c7",
+     "D8d099e6717",
+     "D160b2d96cd",
+     "D73872d2990"
+    ],
+    "confidence": 0.0446075423642303
+   },
+   {
+    "id": "ar04",
+    "lang": "ar",
+    "category": "operations",
+    "query": "تفشي إيبولا بونديبوغيو في إيتوري",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.255082997493446,
+    "top5": [
+     "D9f045d83a6",
+     "Dac15cd638c",
+     "Dacd418953a",
+     "D19b04b35f2",
+     "Dc835fd8fa5"
+    ],
+    "confidence": 0.048651507139079855
+   },
+   {
+    "id": "ar05",
+    "lang": "ar",
+    "category": "operations",
+    "query": "نقص الإمدادات في مستشفى ناصر في غزة",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.210458036046475,
+    "top5": [
+     "D98399d39a0",
+     "D3889964229",
+     "D6955e41d32",
+     "D9996afe2d0",
+     "D25c399e2a3"
+    ],
+    "confidence": 0.048651507139079855
+   },
+   {
+    "id": "es01",
+    "lang": "es",
+    "category": "clinical",
+    "query": "¿Cuáles son los síntomas de la malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "hybrid",
+    "rank": 7,
+    "ms": 8.112540992442518,
+    "top5": [
+     "Dd3254da5f8",
+     "D1c2515fd29",
+     "P14",
+     "Dce112b1459",
+     "D0c937b9312"
+    ],
+    "confidence": 0.04363636363636364
+   },
+   {
+    "id": "es02",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Tratamiento de la tuberculosis multirresistente con bedaquilina",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "hybrid",
+    "rank": 2,
+    "ms": 8.304999966640025,
+    "top5": [
+     "D866cbc1592",
+     "D030d37cd08",
+     "D4ebb3e2295",
+     "D04304ea6c4",
+     "Dfc8173d0de"
+    ],
+    "confidence": 0.048915917503966164
+   },
+   {
+    "id": "es03",
+    "lang": "es",
+    "category": "research",
+    "query": "Control de mosquitos con Wolbachia en Honduras",
+    "relevant": [
+     "D1c730f5fe6"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.240374969318509,
+    "top5": [
+     "D1c730f5fe6",
+     "Dfee2e6ea98",
+     "D32ea4a9d92",
+     "Db88e5c92e9",
+     "D4ebb3e2295"
+    ],
+    "confidence": 0.04918032786885246
+   },
+   {
+    "id": "es04",
+    "lang": "es",
+    "category": "research",
+    "query": "Prevalencia de úlceras genitales en Pweto, República Democrática del Congo",
+    "relevant": [
+     "D8aa6e6503b"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.54691700078547,
+    "top5": [
+     "D8aa6e6503b",
+     "D04304ea6c4",
+     "D866cbc1592",
+     "D6d95a6dd88",
+     "Dbd53eb7cac"
+    ],
+    "confidence": 0.04805902810304451
+   },
+   {
+    "id": "es05",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Mordeduras de serpiente en niños en Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "hybrid",
+    "rank": 1,
+    "ms": 8.258583024144173,
+    "top5": [
+     "Da8a79bb208",
+     "D5da0aed2fd",
+     "D4ebb3e2295",
+     "D795c870cf1",
+     "D866cbc1592"
+    ],
+    "confidence": 0.04525051538288794
+   },
+   {
+    "id": "na01",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to treat Lyme disease",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.182582969311625,
+    "top5": [
+     "D8048b8fc82",
+     "D12eb6a44ae",
+     "D035530810c",
+     "D9d9716b620",
+     "Da3c2a32b51"
+    ],
+    "confidence": 0.043780410195141374
+   },
+   {
+    "id": "na02",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "rehabilitation after knee ligament surgery",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.233832952100784,
+    "top5": [
+     "Ddc851011e7",
+     "Dfee2e6ea98",
+     "D1fa284e16c",
+     "D0197c14ba0",
+     "D44b991fcbd"
+    ],
+    "confidence": 0.04752197436898257
+   },
+   {
+    "id": "na03",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "dental implant procedure steps",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 7.962292002048343,
+    "top5": [
+     "D1fa284e16c",
+     "D49a9834c4f",
+     "D9d9716b620",
+     "Df98e297b5f",
+     "D84c3dce66e"
+    ],
+    "confidence": 0.03850931677018634
+   },
+   {
+    "id": "na04",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "insulin pump settings for type 1 diabetes",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.332166005857289,
+    "top5": [
+     "D7b1badbde2",
+     "D71c39bf00c",
+     "D111832613c",
+     "D04be07fbc1",
+     "D08b1166a91"
+    ],
+    "confidence": 0.04429804634257156
+   },
+   {
+    "id": "na05",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "treatment of acute mountain sickness at high altitude",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.297334017697722,
+    "top5": [
+     "D49a9834c4f",
+     "D35e08369e9",
+     "D0197c14ba0",
+     "D9d9716b620",
+     "Df98e297b5f"
+    ],
+    "confidence": 0.03278688524590164
+   },
+   {
+    "id": "na06",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "MSF projects in Antarctica",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.457624993752688,
+    "top5": [
+     "Dfee2e6ea98",
+     "D1bcc414c13",
+     "Db88e5c92e9",
+     "D32ea4a9d92",
+     "D10d6a75496"
+    ],
+    "confidence": 0.04324717948717948
+   },
+   {
+    "id": "na07",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to manage an acute gout attack",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.159791002981365,
+    "top5": [
+     "D0197c14ba0",
+     "D7dbccfcf92",
+     "D49a9834c4f",
+     "De04128df46",
+     "D5da0aed2fd"
+    ],
+    "confidence": 0.034908815789473684
+   },
+   {
+    "id": "na08",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "multiple sclerosis disease-modifying therapy",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.259834023192525,
+    "top5": [
+     "D6b93916a5a",
+     "Da3c2a32b51",
+     "D35e08369e9",
+     "Dbb1bc86e28",
+     "D98949d5e0c"
+    ],
+    "confidence": 0.03734567901234568
+   },
+   {
+    "id": "na09",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "glaucoma eye drops and intraocular pressure",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.221208001486957,
+    "top5": [
+     "D34e2d54853",
+     "Db4e4334847",
+     "Dcf618c0995",
+     "Dcb61e1119f",
+     "P33"
+    ],
+    "confidence": 0.04009680064764218
+   },
+   {
+    "id": "na10",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "botox injection dose for wrinkles",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.175249968189746,
+    "top5": [
+     "P33",
+     "D86163d450a",
+     "D0db6bc77dd",
+     "D9d9716b620",
+     "P20"
+    ],
+    "confidence": 0.043071257287213366
+   },
+   {
+    "id": "na11",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "gluten-free diet for coeliac disease",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.800874988082796,
+    "top5": [
+     "D2b2708f82d",
+     "D9d9716b620",
+     "D99b084ca58",
+     "Dfee2e6ea98",
+     "Da7bd65da54"
+    ],
+    "confidence": 0.03179888524590164
+   },
+   {
+    "id": "na12",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "best medication for migraine headaches",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.49454099079594,
+    "top5": [
+     "D9d9716b620",
+     "D7d3811047b",
+     "D35e08369e9",
+     "P20",
+     "Dcb61e1119f"
+    ],
+    "confidence": 0.03216938524590164
+   },
+   {
+    "id": "na13",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "LASIK laser surgery for short-sightedness",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.579166023992002,
+    "top5": [
+     "D1fa284e16c",
+     "P34",
+     "D35e08369e9",
+     "Dcacacc3bb7",
+     "Dda0b8c2901"
+    ],
+    "confidence": 0.04476798439241918
+   },
+   {
+    "id": "na14",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "tinnitus ringing in the ears treatment",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.784374978858978,
+    "top5": [
+     "D030d37cd08",
+     "P49",
+     "D7d3811047b",
+     "D9d9716b620",
+     "Df98e297b5f"
+    ],
+    "confidence": 0.036450977645727224
+   },
+   {
+    "id": "na15",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "Comment traiter la maladie de Lyme ?",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.53779201861471,
+    "top5": [
+     "Da906dd6c63",
+     "D9d4ec452ad",
+     "Dbd5581d7ea",
+     "Ddf8cc4588f",
+     "Dbd53eb7cac"
+    ],
+    "confidence": 0.04318210317460317
+   },
+   {
+    "id": "na16",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "traitement du glaucome",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.265457989182323,
+    "top5": [
+     "Dc1c94fd2b0",
+     "P22",
+     "D40369c9b91",
+     "D0f4ce98344",
+     "D9e83de4d52"
+    ],
+    "confidence": 0.046896080389144904
+   },
+   {
+    "id": "na17",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "علاج الصداع النصفي",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.3225829876028,
+    "top5": [
+     "De65d413d46",
+     "D11201a228a",
+     "D855a2aa8c6",
+     "Dd625eb4d57",
+     "D5da294f26a"
+    ],
+    "confidence": 0.03963170080615453
+   },
+   {
+    "id": "na18",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "إعدادات مضخة الأنسولين لمرضى السكري",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.517458976712078,
+    "top5": [
+     "D25c399e2a3",
+     "Dcf2e36fd60",
+     "Dcb1577f6b1",
+     "De65d413d46",
+     "D3201fea5f5"
+    ],
+    "confidence": 0.03947419521429653
+   },
+   {
+    "id": "na19",
+    "lang": "es",
+    "category": "no-answer",
+    "query": "tratamiento de la esclerosis múltiple",
+    "relevant": [],
+    "mode": "hybrid",
+    "rank": null,
+    "ms": 8.53770796675235,
+    "top5": [
+     "D866cbc1592",
+     "D9e83de4d52",
+     "D04304ea6c4",
+     "D4ebb3e2295",
+     "D44b991fcbd"
+    ],
+    "confidence": 0.04679571428571428
+   }
+  ],
+  "rerank": [
+   {
+    "id": "en01",
+    "lang": "en",
+    "category": "clinical",
+    "query": "What are the symptoms of malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 745.0327500118874,
+    "top5": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "Dd6a1769f2b",
+     "Dd3254da5f8"
+    ],
+    "confidence": -0.6589905619621277
+   },
+   {
+    "id": "en02",
+    "lang": "en",
+    "category": "clinical",
+    "query": "amoxicillin dosage for a child",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 783.1978329923004,
+    "top5": [
+     "P24",
+     "Dec1d5ccb22",
+     "D0db6bc77dd",
+     "P33",
+     "Dab5b7604b8"
+    ],
+    "confidence": 6.588723659515381
+   },
+   {
+    "id": "en03",
+    "lang": "en",
+    "category": "clinical",
+    "query": "woman bleeding heavily after giving birth, what should I do?",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "rerank",
+    "rank": 3,
+    "ms": 717.590750020463,
+    "top5": [
+     "D835e00ac1a",
+     "De9093b6b47",
+     "P23",
+     "D473461b69b",
+     "D0ea302e15b"
+    ],
+    "confidence": -2.076315402984619
+   },
+   {
+    "id": "en04",
+    "lang": "en",
+    "category": "clinical",
+    "query": "signs and diagnosis of pulmonary tuberculosis",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 729.1988340439275,
+    "top5": [
+     "P22",
+     "D16794eb94d",
+     "P21",
+     "D3fff8fb771",
+     "D98ca469833"
+    ],
+    "confidence": 9.336135864257812
+   },
+   {
+    "id": "en05",
+    "lang": "en",
+    "category": "clinical",
+    "query": "treatment regimen for drug-susceptible TB in children",
+    "relevant": [
+     "P49"
+    ],
+    "mode": "rerank",
+    "rank": 2,
+    "ms": 994.2929579992779,
+    "top5": [
+     "P34",
+     "P49",
+     "D674b851bcf",
+     "D1498e1b466",
+     "D030d37cd08"
+    ],
+    "confidence": 9.35526180267334
+   },
+   {
+    "id": "en06",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is sleeping sickness treated?",
+    "relevant": [
+     "De3f857b161",
+     "Dfee2e6ea98",
+     "D3eb698da05"
+    ],
+    "mode": "rerank",
+    "rank": 3,
+    "ms": 730.8052909793332,
+    "top5": [
+     "Dde242c302e",
+     "Da3c2a32b51",
+     "D3eb698da05",
+     "Dfee2e6ea98",
+     "D32ea4a9d92"
+    ],
+    "confidence": 0.8792394399642944
+   },
+   {
+    "id": "en07",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is cholera transmitted and how is it treated?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 691.1650830297731,
+    "top5": [
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "D85d7eb197c",
+     "Dfee2e6ea98",
+     "D855a2aa8c6"
+    ],
+    "confidence": 5.620639324188232
+   },
+   {
+    "id": "en08",
+    "lang": "en",
+    "category": "clinical",
+    "query": "visceral leishmaniasis treatment with AmBisome and miltefosine",
+    "relevant": [
+     "D8048b8fc82",
+     "D035530810c"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 827.518250036519,
+    "top5": [
+     "D8048b8fc82",
+     "D20de515bc6",
+     "D11201a228a",
+     "D7b1162c6ec",
+     "Ddd0aaff8ee"
+    ],
+    "confidence": 10.844342231750488
+   },
+   {
+    "id": "en09",
+    "lang": "en",
+    "category": "clinical",
+    "query": "Ebola infection in pregnant women",
+    "relevant": [
+     "Dd3e3626d4a",
+     "Db4e4334847"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 718.7143330229446,
+    "top5": [
+     "Dd3e3626d4a",
+     "Db4e4334847",
+     "D5814f937ab",
+     "Dff0977248b",
+     "D9c3366a7c9"
+    ],
+    "confidence": 7.685430526733398
+   },
+   {
+    "id": "en10",
+    "lang": "en",
+    "category": "clinical",
+    "query": "is a single dose of oral cholera vaccine effective?",
+    "relevant": [
+     "D9962a0b190",
+     "D8954bd10a8",
+     "D66fe4cd145",
+     "D081f681b26",
+     "P33",
+     "D6e4fcedcad"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 928.6820419947617,
+    "top5": [
+     "D6e4fcedcad",
+     "D9962a0b190",
+     "D66fe4cd145",
+     "D8954bd10a8",
+     "P33"
+    ],
+    "confidence": 10.119073867797852
+   },
+   {
+    "id": "en11",
+    "lang": "en",
+    "category": "clinical",
+    "query": "measles vaccination of infants at 6 months",
+    "relevant": [
+     "D8bc477871b",
+     "D3eb698da05"
+    ],
+    "mode": "rerank",
+    "rank": 2,
+    "ms": 636.8676670244895,
+    "top5": [
+     "Db006be0701",
+     "D8bc477871b",
+     "D6a4632d088",
+     "Dc50ba74e90",
+     "P33"
+    ],
+    "confidence": 7.42997407913208
+   },
+   {
+    "id": "en12",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pneumococcal vaccine use in humanitarian crises",
+    "relevant": [
+     "D67e9876b52",
+     "P33"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 765.6594169675373,
+    "top5": [
+     "D67e9876b52",
+     "P33",
+     "D4dc223f819",
+     "Dfee2e6ea98",
+     "D6a4632d088"
+    ],
+    "confidence": 10.897828102111816
+   },
+   {
+    "id": "en13",
+    "lang": "en",
+    "category": "clinical",
+    "query": "children bitten by snakes in Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 783.2306250347756,
+    "top5": [
+     "Da8a79bb208",
+     "Dadc2eedb91",
+     "D7ce58ac770",
+     "D3a2e8cc2bf",
+     "D32ea4a9d92"
+    ],
+    "confidence": 9.847943305969238
+   },
+   {
+    "id": "en14",
+    "lang": "en",
+    "category": "clinical",
+    "query": "what causes noma and which children are at risk?",
+    "relevant": [
+     "D1b06b6e33c",
+     "D4f51b3b8aa"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 700.5294999689795,
+    "top5": [
+     "D1b06b6e33c",
+     "D866cbc1592",
+     "D4f51b3b8aa",
+     "D3eb698da05",
+     "Da906dd6c63"
+    ],
+    "confidence": 2.7630832195281982
+   },
+   {
+    "id": "en15",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pellagra and niacin deficiency in a post-war population",
+    "relevant": [
+     "Da75bdbcd90"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 734.5458340132609,
+    "top5": [
+     "Da75bdbcd90",
+     "Db88e5c92e9",
+     "D11201a228a",
+     "D7b1162c6ec",
+     "Ddd0aaff8ee"
+    ],
+    "confidence": 10.80810260772705
+   },
+   {
+    "id": "en16",
+    "lang": "en",
+    "category": "clinical",
+    "query": "bone and joint disease in rural Tibet linked to selenium",
+    "relevant": [
+     "D9dce5d3ce9"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 828.0621660524048,
+    "top5": [
+     "D9dce5d3ce9",
+     "D11201a228a",
+     "Db88e5c92e9",
+     "Dc835fd8fa5",
+     "Da3c2a32b51"
+    ],
+    "confidence": 7.529782295227051
+   },
+   {
+    "id": "en17",
+    "lang": "en",
+    "category": "clinical",
+    "query": "cervical cancer screening with HPV self-sampling",
+    "relevant": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "Dac76ae4784"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 701.7510840087198,
+    "top5": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "Dac76ae4784",
+     "P33",
+     "D32ea4a9d92"
+    ],
+    "confidence": 10.40744686126709
+   },
+   {
+    "id": "en18",
+    "lang": "en",
+    "category": "clinical",
+    "query": "results of hepatitis C treatment in MSF programmes",
+    "relevant": [
+     "D70c5546837",
+     "D115e2a4293",
+     "D111832613c"
+    ],
+    "mode": "rerank",
+    "rank": 2,
+    "ms": 653.9979579974897,
+    "top5": [
+     "D32ea4a9d92",
+     "D115e2a4293",
+     "Dc645c30427",
+     "D7f227c43c5",
+     "D70c5546837"
+    ],
+    "confidence": 3.8224635124206543
+   },
+   {
+    "id": "en19",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MRSA carriage among patients in a Ugandan hospital",
+    "relevant": [
+     "D4543bc4b16"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 736.1281249905005,
+    "top5": [
+     "D4543bc4b16",
+     "De789e08ccc",
+     "D8d099e6717",
+     "De0610b719b",
+     "D11201a228a"
+    ],
+    "confidence": 9.471277236938477
+   },
+   {
+    "id": "en20",
+    "lang": "en",
+    "category": "clinical",
+    "query": "palliative care and symptom relief in humanitarian emergencies",
+    "relevant": [
+     "D09c3654e6e",
+     "Dfc2b1675a1"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 714.003374974709,
+    "top5": [
+     "D09c3654e6e",
+     "D71c39bf00c",
+     "Dfc2b1675a1",
+     "Db006be0701",
+     "D35e08369e9"
+    ],
+    "confidence": 10.240933418273926
+   },
+   {
+    "id": "en21",
+    "lang": "en",
+    "category": "research",
+    "query": "mental health of international humanitarian aid workers",
+    "relevant": [
+     "P15"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 624.195541953668,
+    "top5": [
+     "P15",
+     "D35e08369e9",
+     "P43",
+     "P32",
+     "Db88e5c92e9"
+    ],
+    "confidence": 8.581517219543457
+   },
+   {
+    "id": "en22",
+    "lang": "en",
+    "category": "research",
+    "query": "portable bacteriology lab to detect antibiotic resistance in low-resource settings",
+    "relevant": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "D53e58415e7"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 724.2747079581022,
+    "top5": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "P35",
+     "D11201a228a",
+     "D7b1162c6ec"
+    ],
+    "confidence": 7.034739017486572
+   },
+   {
+    "id": "en23",
+    "lang": "en",
+    "category": "research",
+    "query": "clinical trials for Lassa fever treatment",
+    "relevant": [
+     "Dda0b8c2901",
+     "Df45b248d71"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 882.7693340135738,
+    "top5": [
+     "Dda0b8c2901",
+     "Df45b248d71",
+     "D11201a228a",
+     "D7b1162c6ec",
+     "Ddd0aaff8ee"
+    ],
+    "confidence": 10.627341270446777
+   },
+   {
+    "id": "en24",
+    "lang": "en",
+    "category": "research",
+    "query": "are rapid diagnostic tests cost-effective during malaria epidemics?",
+    "relevant": [
+     "D1c2515fd29"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 673.4652500017546,
+    "top5": [
+     "D1c2515fd29",
+     "Da8de6138bd",
+     "Dac15cd638c",
+     "D7b1162c6ec",
+     "Dad7d7e880f"
+    ],
+    "confidence": 10.922569274902344
+   },
+   {
+    "id": "en25",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MDR-TB treatment with bedaquiline and delamanid",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 683.6289580096491,
+    "top5": [
+     "D674b851bcf",
+     "P20",
+     "D98949d5e0c",
+     "P34",
+     "D705d4b38bf"
+    ],
+    "confidence": 10.793346405029297
+   },
+   {
+    "id": "en26",
+    "lang": "en",
+    "category": "operations",
+    "query": "how many people did the Geo Barents rescue in the Central Mediterranean in March 2022?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 690.6838750001043,
+    "top5": [
+     "D6de324faad",
+     "D332fd5febc",
+     "D0c85bc1b4a",
+     "Ddf4ea08a8c",
+     "D4ebb3e2295"
+    ],
+    "confidence": 7.560642719268799
+   },
+   {
+    "id": "en27",
+    "lang": "en",
+    "category": "operations",
+    "query": "drone attack on Al-Jabalain hospital in White Nile state",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 630.8200830244459,
+    "top5": [
+     "Db2de191d11",
+     "D8b3df52e9e",
+     "D17e499ac0a",
+     "D3fcfb82721",
+     "D6955e41d32"
+    ],
+    "confidence": 10.816956520080566
+   },
+   {
+    "id": "en28",
+    "lang": "en",
+    "category": "operations",
+    "query": "Bundibugyo Ebola outbreak in Ituri",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 764.0342499944381,
+    "top5": [
+     "D8bafbbfb7a",
+     "D5d1bb4aad4",
+     "Dd2d4a2481b",
+     "D9f045d83a6",
+     "Dac15cd638c"
+    ],
+    "confidence": 10.572846412658691
+   },
+   {
+    "id": "en29",
+    "lang": "en",
+    "category": "operations",
+    "query": "supply shortages at Nasser hospital in Gaza",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 526.3829579926096,
+    "top5": [
+     "D28f2e6484c",
+     "D98399d39a0",
+     "Dc9b5ae9bd8",
+     "Ddc851011e7",
+     "D485cf07c2f"
+    ],
+    "confidence": 10.891887664794922
+   },
+   {
+    "id": "en30",
+    "lang": "en",
+    "category": "operations",
+    "query": "cholera outbreak in Upper Nile state, South Sudan",
+    "relevant": [
+     "D0fdc1d0ef5",
+     "D160b2d96cd",
+     "D6b8bfd81c8"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 708.3037080010399,
+    "top5": [
+     "D0fdc1d0ef5",
+     "D6b8bfd81c8",
+     "D66fe4cd145",
+     "D3eb698da05",
+     "D8954bd10a8"
+    ],
+    "confidence": 10.938220024108887
+   },
+   {
+    "id": "en31",
+    "lang": "en",
+    "category": "operations",
+    "query": "flooding in Maiduguri and risk of disease outbreaks",
+    "relevant": [
+     "De2f723ce04",
+     "D46868ca351"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 1128.399499983061,
+    "top5": [
+     "De2f723ce04",
+     "D46868ca351",
+     "P09",
+     "D3eb698da05",
+     "D1ef8b2e740"
+    ],
+    "confidence": 10.868736267089844
+   },
+   {
+    "id": "en32",
+    "lang": "en",
+    "category": "operations",
+    "query": "rise in severe malnutrition admissions in southern Afghanistan",
+    "relevant": [
+     "D8a2f164116",
+     "Dab64a41cbe"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 780.5613329983316,
+    "top5": [
+     "D8a2f164116",
+     "Da3c2a32b51",
+     "D5da0aed2fd",
+     "Daa73c27a78",
+     "De2f723ce04"
+    ],
+    "confidence": 10.935206413269043
+   },
+   {
+    "id": "en33",
+    "lang": "en",
+    "category": "operations",
+    "query": "UN Security Council resolution 2286 on protecting health care",
+    "relevant": [
+     "D0513ca68ff",
+     "D1c586e6f70",
+     "Dda1f1cf382"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 666.6592080146074,
+    "top5": [
+     "D0513ca68ff",
+     "D1c586e6f70",
+     "Dda1f1cf382",
+     "D597b901fc0",
+     "D1fd995f42e"
+    ],
+    "confidence": 9.457826614379883
+   },
+   {
+    "id": "en34",
+    "lang": "en",
+    "category": "operations",
+    "query": "why did MSF end its activities in northern Brazil?",
+    "relevant": [
+     "D1bcc414c13"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 592.0213750214316,
+    "top5": [
+     "D1bcc414c13",
+     "D32ea4a9d92",
+     "Db88e5c92e9",
+     "Dfee2e6ea98",
+     "P43"
+    ],
+    "confidence": 10.805495262145996
+   },
+   {
+    "id": "en35",
+    "lang": "en",
+    "category": "legal",
+    "query": "who invented the term genocide?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 824.913667049259,
+    "top5": [
+     "P25",
+     "Da68d33c442",
+     "Da384a9ee90",
+     "P32",
+     "Dd625eb4d57"
+    ],
+    "confidence": 9.873954772949219
+   },
+   {
+    "id": "en36",
+    "lang": "en",
+    "category": "legal",
+    "query": "which international conventions has Madagascar ratified?",
+    "relevant": [
+     "D4c9ba9b73a"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 1041.341874981299,
+    "top5": [
+     "D4c9ba9b73a",
+     "P32",
+     "Dedb81e1789",
+     "D68ec883ee2",
+     "Df85d288c91"
+    ],
+    "confidence": 10.73637866973877
+   },
+   {
+    "id": "en37",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF and the fall of Srebrenica in 1995",
+    "relevant": [
+     "Dd12a09cdc4",
+     "De04deb00e2",
+     "D23be77d49e"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 594.9687079992145,
+    "top5": [
+     "Dd12a09cdc4",
+     "D23be77d49e",
+     "Db88e5c92e9",
+     "D1c586e6f70",
+     "D866cbc1592"
+    ],
+    "confidence": 10.932723999023438
+   },
+   {
+    "id": "en38",
+    "lang": "en",
+    "category": "history",
+    "query": "why did MSF withdraw from North Korea?",
+    "relevant": [
+     "D99b084ca58",
+     "D806bc9089a",
+     "D0648397364"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 764.8509580176324,
+    "top5": [
+     "D99b084ca58",
+     "D0648397364",
+     "D4ebb3e2295",
+     "D6bd328fa1a",
+     "Dee50ded210"
+    ],
+    "confidence": 10.905566215515137
+   },
+   {
+    "id": "en39",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF public statements on war crimes in Chechnya",
+    "relevant": [
+     "P43",
+     "Db44a39eff2"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 634.5292499754578,
+    "top5": [
+     "P43",
+     "Db44a39eff2",
+     "D4ebb3e2295",
+     "D1c586e6f70",
+     "D5075be3d1d"
+    ],
+    "confidence": 10.741942405700684
+   },
+   {
+    "id": "en40",
+    "lang": "en",
+    "category": "history",
+    "query": "Salvadoran refugee camps in Honduras",
+    "relevant": [
+     "Da5fd2a394e"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 740.4132499941625,
+    "top5": [
+     "Da5fd2a394e",
+     "P32",
+     "Dd12a09cdc4",
+     "Dbd6e2ef149",
+     "D99b084ca58"
+    ],
+    "confidence": 10.331377029418945
+   },
+   {
+    "id": "en41",
+    "lang": "en",
+    "category": "history",
+    "query": "forced relocations during the Ethiopian famine",
+    "relevant": [
+     "P41",
+     "D98f9c10fad"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 598.7052919808775,
+    "top5": [
+     "P41",
+     "D7acf22526b",
+     "D866cbc1592",
+     "Da906dd6c63",
+     "Db305b45b94"
+    ],
+    "confidence": 10.283621788024902
+   },
+   {
+    "id": "en42",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF total income and expenditure in 2021",
+    "relevant": [
+     "P46"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 707.7224159729667,
+    "top5": [
+     "P46",
+     "Da62ea9bf7f",
+     "D4ebb3e2295",
+     "D5075be3d1d",
+     "P47"
+    ],
+    "confidence": 10.929564476013184
+   },
+   {
+    "id": "en43",
+    "lang": "en",
+    "category": "finance",
+    "query": "where did MSF's money come from in 2024?",
+    "relevant": [
+     "P45"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 673.3913340140134,
+    "top5": [
+     "P45",
+     "D4ebb3e2295",
+     "D5075be3d1d",
+     "D32ea4a9d92",
+     "D012ed396fd"
+    ],
+    "confidence": 8.341207504272461
+   },
+   {
+    "id": "en44",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF international financial report 2018",
+    "relevant": [
+     "P47"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 745.5680830171332,
+    "top5": [
+     "P47",
+     "P46",
+     "P45",
+     "D1c586e6f70",
+     "D4ebb3e2295"
+    ],
+    "confidence": 10.943577766418457
+   },
+   {
+    "id": "fr01",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quels sont les symptômes du paludisme ?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 780.4515410098247,
+    "top5": [
+     "P22",
+     "D40369c9b91",
+     "Dd19d457d52",
+     "D7dbb77c873",
+     "Dff0977248b"
+    ],
+    "confidence": -3.948409080505371
+   },
+   {
+    "id": "fr02",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quelle dose d'amoxicilline donner à un enfant ?",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 835.3109580348246,
+    "top5": [
+     "P24",
+     "Dec1d5ccb22",
+     "D40369c9b91",
+     "Dd5074a1835",
+     "P33"
+    ],
+    "confidence": 2.834783630371094
+   },
+   {
+    "id": "fr03",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Prise en charge d'une hémorragie après l'accouchement",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 788.853875012137,
+    "top5": [
+     "P23",
+     "Dd19d457d52",
+     "Dff0977248b",
+     "D92891baef4",
+     "D66065dc615"
+    ],
+    "confidence": -2.369677348136902
+   },
+   {
+    "id": "fr04",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Signes cliniques de la tuberculose pulmonaire",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 796.0912919952534,
+    "top5": [
+     "P22",
+     "P21",
+     "D49a9834c4f",
+     "D9e021943b7",
+     "Df8d55f1f0f"
+    ],
+    "confidence": 10.669331550598145
+   },
+   {
+    "id": "fr05",
+    "lang": "fr",
+    "category": "legal",
+    "query": "Qui a inventé le mot génocide ?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 899.2873330134898,
+    "top5": [
+     "P25",
+     "Da384a9ee90",
+     "Da68d33c442",
+     "D3ee82c6349",
+     "D5da294f26a"
+    ],
+    "confidence": 4.831064510345459
+   },
+   {
+    "id": "fr06",
+    "lang": "fr",
+    "category": "operations",
+    "query": "Combien de personnes le Geo Barents a-t-il secourues en mars 2022 ?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 591.6276249918155,
+    "top5": [
+     "D332fd5febc",
+     "D6de324faad",
+     "D5075be3d1d",
+     "D4ebb3e2295",
+     "D0c85bc1b4a"
+    ],
+    "confidence": 3.467284733908517
+   },
+   {
+    "id": "ar01",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "ما هي أعراض الملاريا؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 915.6147909816355,
+    "top5": [
+     "Dfee2e6ea98",
+     "D73872d2990",
+     "Df5738d956a",
+     "Dd6a1769f2b",
+     "D11201a228a"
+    ],
+    "confidence": -0.25234001874923706
+   },
+   {
+    "id": "ar02",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "كيف تنتقل الكوليرا وكيف تعالج؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 656.1624999740161,
+    "top5": [
+     "D3eb698da05",
+     "D855a2aa8c6",
+     "Df5738d956a",
+     "D279e1306ba",
+     "Dc09cbc73ed"
+    ],
+    "confidence": 1.134427146911621
+   },
+   {
+    "id": "ar03",
+    "lang": "ar",
+    "category": "operations",
+    "query": "الهجوم على مستشفى الجبلين في ولاية النيل الأبيض",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 725.5728750023991,
+    "top5": [
+     "Db2de191d11",
+     "D8b3df52e9e",
+     "D6e9e7bc8f0",
+     "D2c9bd90636",
+     "D2e11dee055"
+    ],
+    "confidence": 2.6804967403411863
+   },
+   {
+    "id": "ar04",
+    "lang": "ar",
+    "category": "operations",
+    "query": "تفشي إيبولا بونديبوغيو في إيتوري",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 769.2170419613831,
+    "top5": [
+     "D9f045d83a6",
+     "Dacd418953a",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "P41"
+    ],
+    "confidence": 8.85819149017334
+   },
+   {
+    "id": "ar05",
+    "lang": "ar",
+    "category": "operations",
+    "query": "نقص الإمدادات في مستشفى ناصر في غزة",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 795.4727079486474,
+    "top5": [
+     "D98399d39a0",
+     "D28f2e6484c",
+     "D25c399e2a3",
+     "Dcb1577f6b1",
+     "D9996afe2d0"
+    ],
+    "confidence": 10.102082252502441
+   },
+   {
+    "id": "es01",
+    "lang": "es",
+    "category": "clinical",
+    "query": "¿Cuáles son los síntomas de la malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 822.4134999909438,
+    "top5": [
+     "Dfee2e6ea98",
+     "Dd6a1769f2b",
+     "Dd3254da5f8",
+     "D6d95a6dd88",
+     "D3fff8fb771"
+    ],
+    "confidence": -0.8569697141647339
+   },
+   {
+    "id": "es02",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Tratamiento de la tuberculosis multirresistente con bedaquilina",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 792.7732079988346,
+    "top5": [
+     "P20",
+     "D98949d5e0c",
+     "D674b851bcf",
+     "D3744b395c7",
+     "D32ea4a9d92"
+    ],
+    "confidence": 8.407965660095215
+   },
+   {
+    "id": "es03",
+    "lang": "es",
+    "category": "research",
+    "query": "Control de mosquitos con Wolbachia en Honduras",
+    "relevant": [
+     "D1c730f5fe6"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 756.7305410047993,
+    "top5": [
+     "D1c730f5fe6",
+     "D2306bbff2b",
+     "Dfee2e6ea98",
+     "Db88e5c92e9",
+     "Da3c2a32b51"
+    ],
+    "confidence": 9.697795867919922
+   },
+   {
+    "id": "es04",
+    "lang": "es",
+    "category": "research",
+    "query": "Prevalencia de úlceras genitales en Pweto, República Democrática del Congo",
+    "relevant": [
+     "D8aa6e6503b"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 760.1303330156952,
+    "top5": [
+     "D8aa6e6503b",
+     "Dbd53eb7cac",
+     "D7dbb77c873",
+     "D6d95a6dd88",
+     "D866cbc1592"
+    ],
+    "confidence": 10.110243851797922
+   },
+   {
+    "id": "es05",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Mordeduras de serpiente en niños en Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 724.2128750076517,
+    "top5": [
+     "Da8a79bb208",
+     "D32ea4a9d92",
+     "Dadc2eedb91",
+     "D3a2e8cc2bf",
+     "D7ce58ac770"
+    ],
+    "confidence": -0.28185276985168484
+   },
+   {
+    "id": "na01",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to treat Lyme disease",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 859.8902920493856,
+    "top5": [
+     "D9d4ec452ad",
+     "De65d413d46",
+     "Dac15cd638c",
+     "D11201a228a",
+     "D12eb6a44ae"
+    ],
+    "confidence": -3.096924614906311
+   },
+   {
+    "id": "na02",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "rehabilitation after knee ligament surgery",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 851.9339580088854,
+    "top5": [
+     "D11201a228a",
+     "Dd625eb4d57",
+     "D0197c14ba0",
+     "D012ed396fd",
+     "Ddc851011e7"
+    ],
+    "confidence": -4.878910684585572
+   },
+   {
+    "id": "na03",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "dental implant procedure steps",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 833.1439169705845,
+    "top5": [
+     "D8ddd1fa37b",
+     "D7f227c43c5",
+     "D012ed396fd",
+     "De7a091d6d2",
+     "D86163d450a"
+    ],
+    "confidence": -3.420414447784424
+   },
+   {
+    "id": "na04",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "insulin pump settings for type 1 diabetes",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 1175.9630829910748,
+    "top5": [
+     "D111832613c",
+     "D7b1badbde2",
+     "D160b2d96cd",
+     "D71c39bf00c",
+     "Df7ea6d2f4b"
+    ],
+    "confidence": -4.433691501617432
+   },
+   {
+    "id": "na05",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "treatment of acute mountain sickness at high altitude",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 859.4869590015151,
+    "top5": [
+     "D11201a228a",
+     "Dd625eb4d57",
+     "D49a9834c4f",
+     "Dc64138c9ce",
+     "D630c775a00"
+    ],
+    "confidence": -3.1335535049438477
+   },
+   {
+    "id": "na06",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "MSF projects in Antarctica",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 799.77920796955,
+    "top5": [
+     "D32ea4a9d92",
+     "De4c251983a",
+     "Db88e5c92e9",
+     "D48246cb637",
+     "Dfee2e6ea98"
+    ],
+    "confidence": -0.05634994506835955
+   },
+   {
+    "id": "na07",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to manage an acute gout attack",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 853.6367919878103,
+    "top5": [
+     "D7dbccfcf92",
+     "D1c586e6f70",
+     "D0197c14ba0",
+     "Dd625eb4d57",
+     "D49a9834c4f"
+    ],
+    "confidence": -3.050132536888123
+   },
+   {
+    "id": "na08",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "multiple sclerosis disease-modifying therapy",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 708.8236659765244,
+    "top5": [
+     "De65d413d46",
+     "D11201a228a",
+     "Dd049c70e48",
+     "D98949d5e0c",
+     "P20"
+    ],
+    "confidence": 1.5235289335250854
+   },
+   {
+    "id": "na09",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "glaucoma eye drops and intraocular pressure",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 875.2039159880951,
+    "top5": [
+     "Dd625eb4d57",
+     "D49a9834c4f",
+     "D6bd328fa1a",
+     "Dc64138c9ce",
+     "P20"
+    ],
+    "confidence": -3.7704398298263553
+   },
+   {
+    "id": "na10",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "botox injection dose for wrinkles",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 805.8752090437338,
+    "top5": [
+     "P33",
+     "D0db6bc77dd",
+     "Dd5074a1835",
+     "P24",
+     "D10e20f5f7e"
+    ],
+    "confidence": -5.574112224578858
+   },
+   {
+    "id": "na11",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "gluten-free diet for coeliac disease",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 841.4907499682158,
+    "top5": [
+     "D160b2d96cd",
+     "Db305b45b94",
+     "Dfee2e6ea98",
+     "Dd6a1769f2b",
+     "Da3c2a32b51"
+    ],
+    "confidence": -4.370903100967407
+   },
+   {
+    "id": "na12",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "best medication for migraine headaches",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 984.9924999871291,
+    "top5": [
+     "D11201a228a",
+     "Dd625eb4d57",
+     "D1b539fd0a2",
+     "D87af7060b1",
+     "D7cadfec00d"
+    ],
+    "confidence": -2.768069410324097
+   },
+   {
+    "id": "na13",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "LASIK laser surgery for short-sightedness",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 1192.1105830115266,
+    "top5": [
+     "Dff0977248b",
+     "Dda0b8c2901",
+     "Dd625eb4d57",
+     "Ddf8cc4588f",
+     "D012ed396fd"
+    ],
+    "confidence": -3.9308375549316406
+   },
+   {
+    "id": "na14",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "tinnitus ringing in the ears treatment",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 957.226249971427,
+    "top5": [
+     "Dd625eb4d57",
+     "D49a9834c4f",
+     "D11201a228a",
+     "Dc190efdb0c",
+     "P20"
+    ],
+    "confidence": -2.6923177480697635
+   },
+   {
+    "id": "na15",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "Comment traiter la maladie de Lyme ?",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 883.3727919845842,
+    "top5": [
+     "D92891baef4",
+     "D8048b8fc82",
+     "Ddf8cc4588f",
+     "Dfc8173d0de",
+     "P22"
+    ],
+    "confidence": -3.9110731124877933
+   },
+   {
+    "id": "na16",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "traitement du glaucome",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 855.3675839793868,
+    "top5": [
+     "D40369c9b91",
+     "D44b991fcbd",
+     "D9d4ec452ad",
+     "P22",
+     "D3f13adccf5"
+    ],
+    "confidence": -5.640654134750367
+   },
+   {
+    "id": "na17",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "علاج الصداع النصفي",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 859.504416002892,
+    "top5": [
+     "D40369c9b91",
+     "D86163d450a",
+     "D32ea4a9d92",
+     "Dff0977248b",
+     "D7dbccfcf92"
+    ],
+    "confidence": -4.367103779315949
+   },
+   {
+    "id": "na18",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "إعدادات مضخة الأنسولين لمرضى السكري",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 857.4756669695489,
+    "top5": [
+     "D524ed548b0",
+     "Ddf8cc4588f",
+     "D40369c9b91",
+     "D71c39bf00c",
+     "D8025c7c417"
+    ],
+    "confidence": -4.07823606967926
+   },
+   {
+    "id": "na19",
+    "lang": "es",
+    "category": "no-answer",
+    "query": "tratamiento de la esclerosis múltiple",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 729.5967080281116,
+    "top5": [
+     "D4ebb3e2295",
+     "D866cbc1592",
+     "D030d37cd08",
+     "Dc1c94fd2b0",
+     "D8aa6e6503b"
+    ],
+    "confidence": -4.088596296310425
+   }
+  ],
+  "rerank + priors": [
+   {
+    "id": "en01",
+    "lang": "en",
+    "category": "clinical",
+    "query": "What are the symptoms of malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 714.1848749597557,
+    "top5": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "Dd6a1769f2b",
+     "D32ea4a9d92",
+     "Dd3254da5f8"
+    ],
+    "confidence": -0.6589905619621277
+   },
+   {
+    "id": "en02",
+    "lang": "en",
+    "category": "clinical",
+    "query": "amoxicillin dosage for a child",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 767.5394170219079,
+    "top5": [
+     "P24",
+     "Dec1d5ccb22",
+     "D0db6bc77dd",
+     "P33",
+     "Dab5b7604b8"
+    ],
+    "confidence": 6.588723659515381
+   },
+   {
+    "id": "en03",
+    "lang": "en",
+    "category": "clinical",
+    "query": "woman bleeding heavily after giving birth, what should I do?",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 729.0060839732178,
+    "top5": [
+     "P23",
+     "D835e00ac1a",
+     "De9093b6b47",
+     "D473461b69b",
+     "D0ea302e15b"
+    ],
+    "confidence": -2.076315402984619
+   },
+   {
+    "id": "en04",
+    "lang": "en",
+    "category": "clinical",
+    "query": "signs and diagnosis of pulmonary tuberculosis",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 770.4905000282452,
+    "top5": [
+     "P22",
+     "P21",
+     "D16794eb94d",
+     "D3fff8fb771",
+     "D98ca469833"
+    ],
+    "confidence": 9.336135864257812
+   },
+   {
+    "id": "en05",
+    "lang": "en",
+    "category": "clinical",
+    "query": "treatment regimen for drug-susceptible TB in children",
+    "relevant": [
+     "P49"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 1038.4020829806104,
+    "top5": [
+     "P49",
+     "P34",
+     "D674b851bcf",
+     "D1498e1b466",
+     "D030d37cd08"
+    ],
+    "confidence": 9.35526180267334
+   },
+   {
+    "id": "en06",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is sleeping sickness treated?",
+    "relevant": [
+     "De3f857b161",
+     "Dfee2e6ea98",
+     "D3eb698da05"
+    ],
+    "mode": "rerank",
+    "rank": 3,
+    "ms": 771.1427499889396,
+    "top5": [
+     "Dde242c302e",
+     "Da3c2a32b51",
+     "D3eb698da05",
+     "Dfee2e6ea98",
+     "D32ea4a9d92"
+    ],
+    "confidence": 0.8792394399642944
+   },
+   {
+    "id": "en07",
+    "lang": "en",
+    "category": "clinical",
+    "query": "how is cholera transmitted and how is it treated?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 726.2551250169054,
+    "top5": [
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "Dfee2e6ea98",
+     "D85d7eb197c",
+     "D9c3366a7c9"
+    ],
+    "confidence": 5.620639324188232
+   },
+   {
+    "id": "en08",
+    "lang": "en",
+    "category": "clinical",
+    "query": "visceral leishmaniasis treatment with AmBisome and miltefosine",
+    "relevant": [
+     "D8048b8fc82",
+     "D035530810c"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 865.9333339892328,
+    "top5": [
+     "D8048b8fc82",
+     "D37bbcc2a84",
+     "Dc64138c9ce",
+     "D630c775a00",
+     "D3201fea5f5"
+    ],
+    "confidence": 10.844342231750488
+   },
+   {
+    "id": "en09",
+    "lang": "en",
+    "category": "clinical",
+    "query": "Ebola infection in pregnant women",
+    "relevant": [
+     "Dd3e3626d4a",
+     "Db4e4334847"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 783.9196249842644,
+    "top5": [
+     "Db4e4334847",
+     "Dd3e3626d4a",
+     "D5814f937ab",
+     "Dff0977248b",
+     "D9c3366a7c9"
+    ],
+    "confidence": 7.685430526733398
+   },
+   {
+    "id": "en10",
+    "lang": "en",
+    "category": "clinical",
+    "query": "is a single dose of oral cholera vaccine effective?",
+    "relevant": [
+     "D9962a0b190",
+     "D8954bd10a8",
+     "D66fe4cd145",
+     "D081f681b26",
+     "P33",
+     "D6e4fcedcad"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 1072.2589590004645,
+    "top5": [
+     "D6e4fcedcad",
+     "D66fe4cd145",
+     "D9962a0b190",
+     "D8954bd10a8",
+     "P33"
+    ],
+    "confidence": 10.119073867797852
+   },
+   {
+    "id": "en11",
+    "lang": "en",
+    "category": "clinical",
+    "query": "measles vaccination of infants at 6 months",
+    "relevant": [
+     "D8bc477871b",
+     "D3eb698da05"
+    ],
+    "mode": "rerank",
+    "rank": 2,
+    "ms": 753.9834580384195,
+    "top5": [
+     "Db006be0701",
+     "D8bc477871b",
+     "D6a4632d088",
+     "Dc50ba74e90",
+     "D199715052e"
+    ],
+    "confidence": 7.42997407913208
+   },
+   {
+    "id": "en12",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pneumococcal vaccine use in humanitarian crises",
+    "relevant": [
+     "D67e9876b52",
+     "P33"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 805.8091249549761,
+    "top5": [
+     "D67e9876b52",
+     "P33",
+     "D4dc223f819",
+     "D6a4632d088",
+     "Dfee2e6ea98"
+    ],
+    "confidence": 10.897828102111816
+   },
+   {
+    "id": "en13",
+    "lang": "en",
+    "category": "clinical",
+    "query": "children bitten by snakes in Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 875.3926670178771,
+    "top5": [
+     "Da8a79bb208",
+     "Dadc2eedb91",
+     "D7ce58ac770",
+     "D3a2e8cc2bf",
+     "D32ea4a9d92"
+    ],
+    "confidence": 9.847943305969238
+   },
+   {
+    "id": "en14",
+    "lang": "en",
+    "category": "clinical",
+    "query": "what causes noma and which children are at risk?",
+    "relevant": [
+     "D1b06b6e33c",
+     "D4f51b3b8aa"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 649.206584028434,
+    "top5": [
+     "D1b06b6e33c",
+     "D866cbc1592",
+     "D4f51b3b8aa",
+     "D3eb698da05",
+     "Da906dd6c63"
+    ],
+    "confidence": 2.7630832195281982
+   },
+   {
+    "id": "en15",
+    "lang": "en",
+    "category": "clinical",
+    "query": "pellagra and niacin deficiency in a post-war population",
+    "relevant": [
+     "Da75bdbcd90"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 771.0327079985291,
+    "top5": [
+     "Da75bdbcd90",
+     "D7b1162c6ec",
+     "Ddd0aaff8ee",
+     "Dff0977248b",
+     "D6b18f4994b"
+    ],
+    "confidence": 10.80810260772705
+   },
+   {
+    "id": "en16",
+    "lang": "en",
+    "category": "clinical",
+    "query": "bone and joint disease in rural Tibet linked to selenium",
+    "relevant": [
+     "D9dce5d3ce9"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 875.260624976363,
+    "top5": [
+     "D9dce5d3ce9",
+     "D11201a228a",
+     "Db88e5c92e9",
+     "Dc835fd8fa5",
+     "Da3c2a32b51"
+    ],
+    "confidence": 7.529782295227051
+   },
+   {
+    "id": "en17",
+    "lang": "en",
+    "category": "clinical",
+    "query": "cervical cancer screening with HPV self-sampling",
+    "relevant": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "Dac76ae4784"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 737.886333023198,
+    "top5": [
+     "D03da2066dd",
+     "Da1d312e3ab",
+     "Dac76ae4784",
+     "P33",
+     "Dfbc4ab37d9"
+    ],
+    "confidence": 10.40744686126709
+   },
+   {
+    "id": "en18",
+    "lang": "en",
+    "category": "clinical",
+    "query": "results of hepatitis C treatment in MSF programmes",
+    "relevant": [
+     "D70c5546837",
+     "D115e2a4293",
+     "D111832613c"
+    ],
+    "mode": "rerank",
+    "rank": 2,
+    "ms": 706.3053750316612,
+    "top5": [
+     "D32ea4a9d92",
+     "D115e2a4293",
+     "Dc645c30427",
+     "D70c5546837",
+     "D7f227c43c5"
+    ],
+    "confidence": 3.8224635124206543
+   },
+   {
+    "id": "en19",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MRSA carriage among patients in a Ugandan hospital",
+    "relevant": [
+     "D4543bc4b16"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 845.943458029069,
+    "top5": [
+     "D4543bc4b16",
+     "De789e08ccc",
+     "D8d099e6717",
+     "De0610b719b",
+     "D11201a228a"
+    ],
+    "confidence": 9.471277236938477
+   },
+   {
+    "id": "en20",
+    "lang": "en",
+    "category": "clinical",
+    "query": "palliative care and symptom relief in humanitarian emergencies",
+    "relevant": [
+     "D09c3654e6e",
+     "Dfc2b1675a1"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 806.7814169917256,
+    "top5": [
+     "D09c3654e6e",
+     "D71c39bf00c",
+     "Dfc2b1675a1",
+     "D35e08369e9",
+     "Db006be0701"
+    ],
+    "confidence": 10.240933418273926
+   },
+   {
+    "id": "en21",
+    "lang": "en",
+    "category": "research",
+    "query": "mental health of international humanitarian aid workers",
+    "relevant": [
+     "P15"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 662.6322080264799,
+    "top5": [
+     "P15",
+     "D35e08369e9",
+     "P43",
+     "P32",
+     "Db88e5c92e9"
+    ],
+    "confidence": 8.581517219543457
+   },
+   {
+    "id": "en22",
+    "lang": "en",
+    "category": "research",
+    "query": "portable bacteriology lab to detect antibiotic resistance in low-resource settings",
+    "relevant": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "D53e58415e7"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 776.7911249538884,
+    "top5": [
+     "D04c8ff52a2",
+     "D8ad70d7749",
+     "P35",
+     "D630c775a00",
+     "Dfbc4ab37d9"
+    ],
+    "confidence": 7.034739017486572
+   },
+   {
+    "id": "en23",
+    "lang": "en",
+    "category": "research",
+    "query": "clinical trials for Lassa fever treatment",
+    "relevant": [
+     "Dda0b8c2901",
+     "Df45b248d71"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 1020.3960000071675,
+    "top5": [
+     "Dda0b8c2901",
+     "Df45b248d71",
+     "Dc64138c9ce",
+     "D37bbcc2a84",
+     "D630c775a00"
+    ],
+    "confidence": 10.627341270446777
+   },
+   {
+    "id": "en24",
+    "lang": "en",
+    "category": "research",
+    "query": "are rapid diagnostic tests cost-effective during malaria epidemics?",
+    "relevant": [
+     "D1c2515fd29"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 727.187208016403,
+    "top5": [
+     "D1c2515fd29",
+     "D37bbcc2a84",
+     "D9d4ec452ad",
+     "D7b1162c6ec",
+     "Ddd0aaff8ee"
+    ],
+    "confidence": 10.922569274902344
+   },
+   {
+    "id": "en25",
+    "lang": "en",
+    "category": "clinical",
+    "query": "MDR-TB treatment with bedaquiline and delamanid",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 736.6865840158425,
+    "top5": [
+     "P20",
+     "D674b851bcf",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "P34"
+    ],
+    "confidence": 10.793346405029297
+   },
+   {
+    "id": "en26",
+    "lang": "en",
+    "category": "operations",
+    "query": "how many people did the Geo Barents rescue in the Central Mediterranean in March 2022?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 668.5906249913387,
+    "top5": [
+     "D6de324faad",
+     "D332fd5febc",
+     "D0c85bc1b4a",
+     "Ddf4ea08a8c",
+     "D4ebb3e2295"
+    ],
+    "confidence": 7.560642719268799
+   },
+   {
+    "id": "en27",
+    "lang": "en",
+    "category": "operations",
+    "query": "drone attack on Al-Jabalain hospital in White Nile state",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 626.7764589865692,
+    "top5": [
+     "Db2de191d11",
+     "D8b3df52e9e",
+     "D17e499ac0a",
+     "D3fcfb82721",
+     "D6955e41d32"
+    ],
+    "confidence": 10.816956520080566
+   },
+   {
+    "id": "en28",
+    "lang": "en",
+    "category": "operations",
+    "query": "Bundibugyo Ebola outbreak in Ituri",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 757.5385419768281,
+    "top5": [
+     "D8bafbbfb7a",
+     "D5d1bb4aad4",
+     "Dd2d4a2481b",
+     "D9f045d83a6",
+     "Dac15cd638c"
+    ],
+    "confidence": 10.572846412658691
+   },
+   {
+    "id": "en29",
+    "lang": "en",
+    "category": "operations",
+    "query": "supply shortages at Nasser hospital in Gaza",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 538.6817079852335,
+    "top5": [
+     "D28f2e6484c",
+     "D98399d39a0",
+     "Dc9b5ae9bd8",
+     "Ddc851011e7",
+     "D485cf07c2f"
+    ],
+    "confidence": 10.891887664794922
+   },
+   {
+    "id": "en30",
+    "lang": "en",
+    "category": "operations",
+    "query": "cholera outbreak in Upper Nile state, South Sudan",
+    "relevant": [
+     "D0fdc1d0ef5",
+     "D160b2d96cd",
+     "D6b8bfd81c8"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 735.2348329732195,
+    "top5": [
+     "D0fdc1d0ef5",
+     "D6b8bfd81c8",
+     "D66fe4cd145",
+     "D3eb698da05",
+     "D8954bd10a8"
+    ],
+    "confidence": 10.938220024108887
+   },
+   {
+    "id": "en31",
+    "lang": "en",
+    "category": "operations",
+    "query": "flooding in Maiduguri and risk of disease outbreaks",
+    "relevant": [
+     "De2f723ce04",
+     "D46868ca351"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 1134.453292004764,
+    "top5": [
+     "De2f723ce04",
+     "D46868ca351",
+     "P09",
+     "D3eb698da05",
+     "D1ef8b2e740"
+    ],
+    "confidence": 10.868736267089844
+   },
+   {
+    "id": "en32",
+    "lang": "en",
+    "category": "operations",
+    "query": "rise in severe malnutrition admissions in southern Afghanistan",
+    "relevant": [
+     "D8a2f164116",
+     "Dab64a41cbe"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 814.8791660205461,
+    "top5": [
+     "D8a2f164116",
+     "Da3c2a32b51",
+     "D5da0aed2fd",
+     "Daa73c27a78",
+     "De2f723ce04"
+    ],
+    "confidence": 10.935206413269043
+   },
+   {
+    "id": "en33",
+    "lang": "en",
+    "category": "operations",
+    "query": "UN Security Council resolution 2286 on protecting health care",
+    "relevant": [
+     "D0513ca68ff",
+     "D1c586e6f70",
+     "Dda1f1cf382"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 691.8136670137756,
+    "top5": [
+     "D0513ca68ff",
+     "D1c586e6f70",
+     "Dda1f1cf382",
+     "D597b901fc0",
+     "D1fd995f42e"
+    ],
+    "confidence": 9.457826614379883
+   },
+   {
+    "id": "en34",
+    "lang": "en",
+    "category": "operations",
+    "query": "why did MSF end its activities in northern Brazil?",
+    "relevant": [
+     "D1bcc414c13"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 610.1092079770751,
+    "top5": [
+     "D1bcc414c13",
+     "D32ea4a9d92",
+     "Db88e5c92e9",
+     "Dfee2e6ea98",
+     "P43"
+    ],
+    "confidence": 10.805495262145996
+   },
+   {
+    "id": "en35",
+    "lang": "en",
+    "category": "legal",
+    "query": "who invented the term genocide?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 864.1207500477321,
+    "top5": [
+     "P25",
+     "Da68d33c442",
+     "Da384a9ee90",
+     "P32",
+     "Dd5074a1835"
+    ],
+    "confidence": 9.873954772949219
+   },
+   {
+    "id": "en36",
+    "lang": "en",
+    "category": "legal",
+    "query": "which international conventions has Madagascar ratified?",
+    "relevant": [
+     "D4c9ba9b73a"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 1078.9874999900348,
+    "top5": [
+     "D4c9ba9b73a",
+     "P32",
+     "D68ec883ee2",
+     "Dedb81e1789",
+     "Df85d288c91"
+    ],
+    "confidence": 10.73637866973877
+   },
+   {
+    "id": "en37",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF and the fall of Srebrenica in 1995",
+    "relevant": [
+     "Dd12a09cdc4",
+     "De04deb00e2",
+     "D23be77d49e"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 609.9352500168607,
+    "top5": [
+     "Dd12a09cdc4",
+     "D23be77d49e",
+     "Db88e5c92e9",
+     "D6d95a6dd88",
+     "D756e06cd6d"
+    ],
+    "confidence": 10.932723999023438
+   },
+   {
+    "id": "en38",
+    "lang": "en",
+    "category": "history",
+    "query": "why did MSF withdraw from North Korea?",
+    "relevant": [
+     "D99b084ca58",
+     "D806bc9089a",
+     "D0648397364"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 789.156417013146,
+    "top5": [
+     "D99b084ca58",
+     "D0648397364",
+     "D4ebb3e2295",
+     "D6bd328fa1a",
+     "Dee50ded210"
+    ],
+    "confidence": 10.905566215515137
+   },
+   {
+    "id": "en39",
+    "lang": "en",
+    "category": "history",
+    "query": "MSF public statements on war crimes in Chechnya",
+    "relevant": [
+     "P43",
+     "Db44a39eff2"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 683.34429099923,
+    "top5": [
+     "P43",
+     "Db44a39eff2",
+     "D1c586e6f70",
+     "D4ebb3e2295",
+     "D5075be3d1d"
+    ],
+    "confidence": 10.741942405700684
+   },
+   {
+    "id": "en40",
+    "lang": "en",
+    "category": "history",
+    "query": "Salvadoran refugee camps in Honduras",
+    "relevant": [
+     "Da5fd2a394e"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 823.8584169885144,
+    "top5": [
+     "Da5fd2a394e",
+     "P32",
+     "Dd12a09cdc4",
+     "Dbd6e2ef149",
+     "D99b084ca58"
+    ],
+    "confidence": 10.331377029418945
+   },
+   {
+    "id": "en41",
+    "lang": "en",
+    "category": "history",
+    "query": "forced relocations during the Ethiopian famine",
+    "relevant": [
+     "P41",
+     "D98f9c10fad"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 661.3408749690279,
+    "top5": [
+     "P41",
+     "Dff0977248b",
+     "D6d95a6dd88",
+     "D756e06cd6d",
+     "D7acf22526b"
+    ],
+    "confidence": 10.283621788024902
+   },
+   {
+    "id": "en42",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF total income and expenditure in 2021",
+    "relevant": [
+     "P46"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 743.617333995644,
+    "top5": [
+     "P46",
+     "Def416d05a4",
+     "D756e06cd6d",
+     "D6d95a6dd88",
+     "Da62ea9bf7f"
+    ],
+    "confidence": 10.929564476013184
+   },
+   {
+    "id": "en43",
+    "lang": "en",
+    "category": "finance",
+    "query": "where did MSF's money come from in 2024?",
+    "relevant": [
+     "P45"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 693.6947089852765,
+    "top5": [
+     "P45",
+     "D4ebb3e2295",
+     "D5075be3d1d",
+     "D32ea4a9d92",
+     "D012ed396fd"
+    ],
+    "confidence": 8.341207504272461
+   },
+   {
+    "id": "en44",
+    "lang": "en",
+    "category": "finance",
+    "query": "MSF international financial report 2018",
+    "relevant": [
+     "P47"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 764.9194169789553,
+    "top5": [
+     "P47",
+     "P46",
+     "P45",
+     "Def416d05a4",
+     "D6b18f4994b"
+    ],
+    "confidence": 10.943577766418457
+   },
+   {
+    "id": "fr01",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quels sont les symptômes du paludisme ?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 805.110584013164,
+    "top5": [
+     "P22",
+     "D40369c9b91",
+     "Dd19d457d52",
+     "Dff0977248b",
+     "D7dbb77c873"
+    ],
+    "confidence": -3.948409080505371
+   },
+   {
+    "id": "fr02",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Quelle dose d'amoxicilline donner à un enfant ?",
+    "relevant": [
+     "P24"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 852.0792920025997,
+    "top5": [
+     "P24",
+     "Dd5074a1835",
+     "Dec1d5ccb22",
+     "D40369c9b91",
+     "P33"
+    ],
+    "confidence": 2.834783630371094
+   },
+   {
+    "id": "fr03",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Prise en charge d'une hémorragie après l'accouchement",
+    "relevant": [
+     "P23"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 805.7552919490263,
+    "top5": [
+     "P23",
+     "Dd19d457d52",
+     "Dff0977248b",
+     "D92891baef4",
+     "D66065dc615"
+    ],
+    "confidence": -2.369677348136902
+   },
+   {
+    "id": "fr04",
+    "lang": "fr",
+    "category": "clinical",
+    "query": "Signes cliniques de la tuberculose pulmonaire",
+    "relevant": [
+     "P21",
+     "P22"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 768.8192090135999,
+    "top5": [
+     "P22",
+     "P21",
+     "D49a9834c4f",
+     "D9e021943b7",
+     "Df8d55f1f0f"
+    ],
+    "confidence": 10.669331550598145
+   },
+   {
+    "id": "fr05",
+    "lang": "fr",
+    "category": "legal",
+    "query": "Qui a inventé le mot génocide ?",
+    "relevant": [
+     "P25"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 863.6299159843475,
+    "top5": [
+     "P25",
+     "Da384a9ee90",
+     "Da68d33c442",
+     "D3ee82c6349",
+     "D5da294f26a"
+    ],
+    "confidence": 4.831064510345459
+   },
+   {
+    "id": "fr06",
+    "lang": "fr",
+    "category": "operations",
+    "query": "Combien de personnes le Geo Barents a-t-il secourues en mars 2022 ?",
+    "relevant": [
+     "D6de324faad",
+     "D332fd5febc"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 578.3017500070855,
+    "top5": [
+     "D332fd5febc",
+     "D6de324faad",
+     "D5075be3d1d",
+     "D0c85bc1b4a",
+     "D4ebb3e2295"
+    ],
+    "confidence": 3.467284733908517
+   },
+   {
+    "id": "ar01",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "ما هي أعراض الملاريا؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 925.5219160113484,
+    "top5": [
+     "Dfee2e6ea98",
+     "D73872d2990",
+     "Dd6a1769f2b",
+     "Df5738d956a",
+     "D11201a228a"
+    ],
+    "confidence": -0.25234001874923706
+   },
+   {
+    "id": "ar02",
+    "lang": "ar",
+    "category": "clinical",
+    "query": "كيف تنتقل الكوليرا وكيف تعالج؟",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92",
+     "P33",
+     "D9c3366a7c9",
+     "D88155b92de",
+     "D66fe4cd145"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 668.2862919988111,
+    "top5": [
+     "D3eb698da05",
+     "D855a2aa8c6",
+     "D8316c95aec",
+     "D279e1306ba",
+     "Dc09cbc73ed"
+    ],
+    "confidence": 1.134427146911621
+   },
+   {
+    "id": "ar03",
+    "lang": "ar",
+    "category": "operations",
+    "query": "الهجوم على مستشفى الجبلين في ولاية النيل الأبيض",
+    "relevant": [
+     "Db2de191d11",
+     "D8b3df52e9e"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 738.2055830094032,
+    "top5": [
+     "Db2de191d11",
+     "D8b3df52e9e",
+     "D6e9e7bc8f0",
+     "D2c9bd90636",
+     "D2e11dee055"
+    ],
+    "confidence": 2.6804967403411863
+   },
+   {
+    "id": "ar04",
+    "lang": "ar",
+    "category": "operations",
+    "query": "تفشي إيبولا بونديبوغيو في إيتوري",
+    "relevant": [
+     "D5d1bb4aad4",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "D9f045d83a6"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 778.3572920016013,
+    "top5": [
+     "D9f045d83a6",
+     "Dacd418953a",
+     "Dac15cd638c",
+     "D8bafbbfb7a",
+     "P41"
+    ],
+    "confidence": 8.85819149017334
+   },
+   {
+    "id": "ar05",
+    "lang": "ar",
+    "category": "operations",
+    "query": "نقص الإمدادات في مستشفى ناصر في غزة",
+    "relevant": [
+     "D28f2e6484c",
+     "D98399d39a0"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 645.9632079931907,
+    "top5": [
+     "D98399d39a0",
+     "D28f2e6484c",
+     "D25c399e2a3",
+     "Dcb1577f6b1",
+     "D9996afe2d0"
+    ],
+    "confidence": 10.102082252502441
+   },
+   {
+    "id": "es01",
+    "lang": "es",
+    "category": "clinical",
+    "query": "¿Cuáles son los síntomas de la malaria?",
+    "relevant": [
+     "Dfee2e6ea98",
+     "D3eb698da05",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 759.8450829973444,
+    "top5": [
+     "Dfee2e6ea98",
+     "Dd6a1769f2b",
+     "Dd3254da5f8",
+     "D6d95a6dd88",
+     "D3fff8fb771"
+    ],
+    "confidence": -0.8569697141647339
+   },
+   {
+    "id": "es02",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Tratamiento de la tuberculosis multirresistente con bedaquilina",
+    "relevant": [
+     "P20",
+     "P34",
+     "Df7ea6d2f4b",
+     "D030d37cd08",
+     "D98949d5e0c",
+     "D705d4b38bf",
+     "D674b851bcf",
+     "D3744b395c7",
+     "Dda00263b16",
+     "D07afa7fbd7",
+     "D32ea4a9d92"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 757.6025000307709,
+    "top5": [
+     "P20",
+     "D98949d5e0c",
+     "D674b851bcf",
+     "D3744b395c7",
+     "D32ea4a9d92"
+    ],
+    "confidence": 8.407965660095215
+   },
+   {
+    "id": "es03",
+    "lang": "es",
+    "category": "research",
+    "query": "Control de mosquitos con Wolbachia en Honduras",
+    "relevant": [
+     "D1c730f5fe6"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 759.642458986491,
+    "top5": [
+     "D1c730f5fe6",
+     "D2306bbff2b",
+     "Dfee2e6ea98",
+     "Db88e5c92e9",
+     "Da3c2a32b51"
+    ],
+    "confidence": 9.697795867919922
+   },
+   {
+    "id": "es04",
+    "lang": "es",
+    "category": "research",
+    "query": "Prevalencia de úlceras genitales en Pweto, República Democrática del Congo",
+    "relevant": [
+     "D8aa6e6503b"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 759.401582996361,
+    "top5": [
+     "D8aa6e6503b",
+     "D7dbb77c873",
+     "Dbd53eb7cac",
+     "D6d95a6dd88",
+     "D162ba1334d"
+    ],
+    "confidence": 10.110243851797922
+   },
+   {
+    "id": "es05",
+    "lang": "es",
+    "category": "clinical",
+    "query": "Mordeduras de serpiente en niños en Yemen",
+    "relevant": [
+     "Da8a79bb208"
+    ],
+    "mode": "rerank",
+    "rank": 1,
+    "ms": 713.2592080160975,
+    "top5": [
+     "Da8a79bb208",
+     "D32ea4a9d92",
+     "Dadc2eedb91",
+     "D3a2e8cc2bf",
+     "D7ce58ac770"
+    ],
+    "confidence": -0.28185276985168484
+   },
+   {
+    "id": "na01",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to treat Lyme disease",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 862.3894169577397,
+    "top5": [
+     "D9d4ec452ad",
+     "De65d413d46",
+     "Dac15cd638c",
+     "D11201a228a",
+     "D12eb6a44ae"
+    ],
+    "confidence": -3.096924614906311
+   },
+   {
+    "id": "na02",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "rehabilitation after knee ligament surgery",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 851.1581249767914,
+    "top5": [
+     "D11201a228a",
+     "Dd625eb4d57",
+     "D0197c14ba0",
+     "Ddc851011e7",
+     "D012ed396fd"
+    ],
+    "confidence": -4.878910684585572
+   },
+   {
+    "id": "na03",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "dental implant procedure steps",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 833.686291007325,
+    "top5": [
+     "D8ddd1fa37b",
+     "D7f227c43c5",
+     "De7a091d6d2",
+     "D86163d450a",
+     "D630c775a00"
+    ],
+    "confidence": -3.420414447784424
+   },
+   {
+    "id": "na04",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "insulin pump settings for type 1 diabetes",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 1174.3905839975923,
+    "top5": [
+     "D111832613c",
+     "D7b1badbde2",
+     "D71c39bf00c",
+     "D160b2d96cd",
+     "Df7ea6d2f4b"
+    ],
+    "confidence": -4.433691501617432
+   },
+   {
+    "id": "na05",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "treatment of acute mountain sickness at high altitude",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 848.3025410096161,
+    "top5": [
+     "D11201a228a",
+     "Dd625eb4d57",
+     "D49a9834c4f",
+     "Dc64138c9ce",
+     "D630c775a00"
+    ],
+    "confidence": -3.1335535049438477
+   },
+   {
+    "id": "na06",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "MSF projects in Antarctica",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 803.773874999024,
+    "top5": [
+     "D32ea4a9d92",
+     "De4c251983a",
+     "Db88e5c92e9",
+     "D48246cb637",
+     "Dfee2e6ea98"
+    ],
+    "confidence": -0.05634994506835955
+   },
+   {
+    "id": "na07",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "how to manage an acute gout attack",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 832.7325410209596,
+    "top5": [
+     "D7dbccfcf92",
+     "D0197c14ba0",
+     "D1c586e6f70",
+     "Dd625eb4d57",
+     "D49a9834c4f"
+    ],
+    "confidence": -3.050132536888123
+   },
+   {
+    "id": "na08",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "multiple sclerosis disease-modifying therapy",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 700.5093750194646,
+    "top5": [
+     "De65d413d46",
+     "D11201a228a",
+     "D98949d5e0c",
+     "Dd049c70e48",
+     "D6b18f4994b"
+    ],
+    "confidence": 1.5235289335250854
+   },
+   {
+    "id": "na09",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "glaucoma eye drops and intraocular pressure",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 865.8646250260063,
+    "top5": [
+     "Dd625eb4d57",
+     "D49a9834c4f",
+     "D6bd328fa1a",
+     "Dc64138c9ce",
+     "P20"
+    ],
+    "confidence": -3.7704398298263553
+   },
+   {
+    "id": "na10",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "botox injection dose for wrinkles",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 794.127750035841,
+    "top5": [
+     "P33",
+     "D0db6bc77dd",
+     "Dd5074a1835",
+     "P24",
+     "D10e20f5f7e"
+    ],
+    "confidence": -5.574112224578858
+   },
+   {
+    "id": "na11",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "gluten-free diet for coeliac disease",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 823.1612090021372,
+    "top5": [
+     "D160b2d96cd",
+     "Db305b45b94",
+     "Dfee2e6ea98",
+     "Dd6a1769f2b",
+     "D5da0aed2fd"
+    ],
+    "confidence": -4.370903100967407
+   },
+   {
+    "id": "na12",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "best medication for migraine headaches",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 977.0426659961231,
+    "top5": [
+     "D11201a228a",
+     "D1b539fd0a2",
+     "D87af7060b1",
+     "Dd625eb4d57",
+     "P24"
+    ],
+    "confidence": -2.768069410324097
+   },
+   {
+    "id": "na13",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "LASIK laser surgery for short-sightedness",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 1184.4239169731736,
+    "top5": [
+     "Dff0977248b",
+     "Dda0b8c2901",
+     "Ddf8cc4588f",
+     "D37bbcc2a84",
+     "Dd625eb4d57"
+    ],
+    "confidence": -3.9308375549316406
+   },
+   {
+    "id": "na14",
+    "lang": "en",
+    "category": "no-answer",
+    "query": "tinnitus ringing in the ears treatment",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 909.5079160179012,
+    "top5": [
+     "Dd625eb4d57",
+     "D49a9834c4f",
+     "D11201a228a",
+     "Dc64138c9ce",
+     "D630c775a00"
+    ],
+    "confidence": -2.6923177480697635
+   },
+   {
+    "id": "na15",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "Comment traiter la maladie de Lyme ?",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 803.9410829660483,
+    "top5": [
+     "D92891baef4",
+     "D8048b8fc82",
+     "Ddf8cc4588f",
+     "P22",
+     "Dfc8173d0de"
+    ],
+    "confidence": -3.9110731124877933
+   },
+   {
+    "id": "na16",
+    "lang": "fr",
+    "category": "no-answer",
+    "query": "traitement du glaucome",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 816.7352080345154,
+    "top5": [
+     "D40369c9b91",
+     "D9d4ec452ad",
+     "P22",
+     "D44b991fcbd",
+     "D3f13adccf5"
+    ],
+    "confidence": -5.640654134750367
+   },
+   {
+    "id": "na17",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "علاج الصداع النصفي",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 852.9841669951566,
+    "top5": [
+     "D40369c9b91",
+     "D86163d450a",
+     "D32ea4a9d92",
+     "Dff0977248b",
+     "D7dbccfcf92"
+    ],
+    "confidence": -4.367103779315949
+   },
+   {
+    "id": "na18",
+    "lang": "ar",
+    "category": "no-answer",
+    "query": "إعدادات مضخة الأنسولين لمرضى السكري",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 841.4347500074655,
+    "top5": [
+     "D524ed548b0",
+     "Ddf8cc4588f",
+     "D8025c7c417",
+     "D40369c9b91",
+     "D71c39bf00c"
+    ],
+    "confidence": -4.07823606967926
+   },
+   {
+    "id": "na19",
+    "lang": "es",
+    "category": "no-answer",
+    "query": "tratamiento de la esclerosis múltiple",
+    "relevant": [],
+    "mode": "rerank",
+    "rank": null,
+    "ms": 753.2122079865076,
+    "top5": [
+     "Dc1c94fd2b0",
+     "D030d37cd08",
+     "D4ebb3e2295",
+     "D866cbc1592",
+     "D8aa6e6503b"
+    ],
+    "confidence": -4.088596296310425
+   }
+  ]
+ }
+}

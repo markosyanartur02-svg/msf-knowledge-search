@@ -1,0 +1,14 @@
+# Never share the API key file
+.streamlit/secrets.toml
+# Generated or personal
+.venv/
+index/
+user_data/
+__pycache__/
+dist/
+# MSF challenge data and documents: not ours to republish (place "D4GC data" locally, see README)
+D4GC data/
+D4GC Challenge Document - 2026.pdf
+# Local tooling
+.DS_Store
+.claude/

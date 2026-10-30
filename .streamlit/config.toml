@@ -1,0 +1,19 @@
+# Offline use: never send usage statistics to Streamlit's servers.
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+# Only this computer can open the app (not other devices on the same network).
+[server]
+address = "localhost"
+
+# MSF look (msf-azg.be): white background, MSF red #EE0000, black text.
+[theme]
+base = "light"
+primaryColor = "#EE0000"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F4F4"
+textColor = "#1A1A1A"
+font = "sans serif"
